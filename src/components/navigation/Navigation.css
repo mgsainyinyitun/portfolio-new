@@ -5,31 +5,45 @@ html, body {
     margin: 0;
     padding: 0;
 }
-a {
-    text-decoration: none;
-    
-}
+
 li {
     list-style: none;
     color: #BB2020;
 }
+
+.sticky {
+    position: relative;
+    top: 0;
+    width: 100%;
+  }
 /*Header*/
 header {
     width: 100%;
     height: 50px;
     line-height: 50px;
     text-align: center;
-    font-family: sans-serif;
+    /*font-family: "Raleway", sans-serif;*/
+    font-family:'Courier New', Courier, monospace;
+    font-weight:540;
+    font-size: 1.1em;
+    letter-spacing: 00.125em;
     background-color: #06111C;
 }
 .brand {
     width: auto;
     height: 100%;
     float: left;
+    font-size: 1.5rem;
     margin: 0 0 0 5%;
 }
+
 .red{
     color:#BB2020;
+    text-decoration: none;
+}
+.home-icon:hover{
+    color: rgba(15,51,92,1);
+    font-size: 1.5rem;
 }
 
 /*Navigation*/
@@ -52,12 +66,14 @@ header {
 .menu ul a {
     width: 20%;
     height: inherit;
-    color: #222;
+    color: rgba(15,51,92,1);
     display: inline-block;
+    text-decoration: none;
 }
 .menu ul a:hover {
-    background-color: #222;
-    color: #fff;
+    background-color: rgba(15,51,92,1);
+    color: white;
+
 }
 #menuToggle {
     display: none;
@@ -77,6 +93,7 @@ header {
         display: block;
         max-height: 0;
     	overflow: hidden;
+        background-color:#121317;
     	-webkit-transition: max-height 0.3s;
     	-moz-transition: max-height 0.3s;
         -ms-transition: max-height 0.3s;
@@ -87,7 +104,7 @@ header {
         text-align: left;
         width: 100%;
         height: 50px;
-        background-color:#BEC7C7;
+        background-color:#121317;
         padding: 10px 0px 10px 5%;
     }
     .menu-icon {

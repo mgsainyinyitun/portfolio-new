@@ -8,9 +8,9 @@ class Navigation extends React.Component {
 
     render(){
         return(
-           <header>
+           <header className='sticky'>
                <figure className='brand'>
-                   <FontAwesomeIcon icon={faHome} className='red'/>
+                   <FontAwesomeIcon icon={faHome} className='red home-icon'/>
                </figure>
                <nav className="menu">
                    <input type='checkbox' id='menuToggle'/>
