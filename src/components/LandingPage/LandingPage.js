@@ -1,6 +1,7 @@
 import React from 'react';
 import './LandingPage.css';
 import avatar from '../../img/avatar.jpg';
+import cartoon from '../../img/Cartoonify.png';
 import 'animate.css';
 
 
@@ -14,7 +15,7 @@ class LandingPage extends React.Component {
                     <p>THE ODYSSEY OF A SOFTWARE AND FULL-STACK WEB DEVELOPER.</p>
                     
                     <div>
-                        <img src={avatar} alt="Avatar" class="avatar"/>
+                        <img src={cartoon} alt="Avatar" class="avatar"/>
                     </div>
                     
 

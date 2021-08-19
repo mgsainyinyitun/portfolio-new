@@ -1,14 +1,10 @@
 
   .main-home {
-    background: #0F2027;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
     /*background: #000000;  /* fallback for old browsers */
     /*background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
     /*background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-    background-image: radial-gradient( circle farthest-corner at 83.7% 4.3%,  #121317 0%, rgba(15,51,92,1) 90% );
+    /*background-image: radial-gradient( circle farthest-corner at 83.7% 4.3%,  #121317 0%, rgba(15,51,92,1) 90% );*/
     min-height: 93vh;
     padding-top: 2rem;
   }
@@ -19,6 +15,7 @@
       font-family:'Courier New', Courier, monospace;
       font-style: normal;
       letter-spacing: 0.125em;
+      font-size: 3rem;
   }
 
 .m-btn{
@@ -77,5 +74,16 @@
         align-self: center;
         text-align: justify;
         font-family: 'Courier New', Courier, monospace;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .my-name{
+        color: white;
+        font-family:'Courier New', Courier, monospace;
+        font-style: normal;
+        letter-spacing: 0.125em;
+        font-size: 2rem;
     }
 }

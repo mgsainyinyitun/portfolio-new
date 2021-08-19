@@ -1,0 +1,7 @@
+.wave-background{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: radial-gradient( circle farthest-corner at 83.7% 4.3%,  #121317 0%, rgba(15,51,92,1) 90% );
+}
+

@@ -1,0 +1,21 @@
+.carousel-container{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+.carousel-holder{
+    width: 50%;
+    margin: 50px;
+    max-width: 90%;
+}
+
+
+@media screen and (max-width: 745px) {
+    .carousel-holder{
+        width: 80%;
+        max-width: 90%;
+    }
+    
+
+}
