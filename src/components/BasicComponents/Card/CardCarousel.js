@@ -14,7 +14,7 @@ class CardCarousel extends React.Component{
           slidesToShow: 1,
         };
         return (
-        <div className='carousel-container'>
+        
           <div className='carousel-holder'>
                 <Slider {...settings}>
                 <div>
@@ -34,7 +34,7 @@ class CardCarousel extends React.Component{
                 </div>
                 </Slider>
             </div>
-          </div>
+          
         );
       }
 

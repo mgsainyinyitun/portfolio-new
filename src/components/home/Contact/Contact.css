@@ -1,0 +1,155 @@
+.contact-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.contact-container .inner-container{
+    width: 75%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact-container .form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.form-container .glass-contact{
+    position: relative;
+    width: 100%;
+    min-width: 300px;
+    max-height: 300px;
+    border-radius: 15px;
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+    background: rgba(255, 255, 255, 0.1);
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+
+}
+.form-container .info-container{
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    align-self: flex-start;
+}
+.info-container .aw-icon{
+    margin-right: 10px;
+}
+.info-container p{
+    vertical-align:middle;
+    margin: 0;
+    padding: 0;
+}
+
+/* for glass form */
+
+.form-container .glass-form{
+    position: relative;
+    width: 100%;
+    min-width: 300px;
+    border-radius: 15px;
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+    background: rgba(255, 255, 255, 0.1);
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.glass-form input{
+    border: none;
+    border-radius: 15px;
+    background-color:rgba(0, 0, 255, 0.2);
+    height: 30px;
+    padding: 1rem;
+    margin-bottom: 0.5rem;  
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.glass-form input:focus {
+    outline:none;
+    background-color:rgba(0, 0, 255, 0.4);
+  }
+
+.glass-form input:hover{
+    background-color:rgba(0, 0, 255, 0.4);
+}
+
+.glass-form textarea:focus{
+    outline:none;
+    background-color:rgba(0, 0, 255, 0.4);
+}
+.glass-form textarea:hover{
+    background-color:rgba(0, 0, 255, 0.4);
+}
+
+.glass-form textarea{
+    border: none;
+    border-radius: 15px;
+    background-color:rgba(0, 0, 255, 0.2);
+    padding: 1rem;
+    margin-bottom: 0.5rem;  
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Text input place holder*/
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    
+  }
+  ::-moz-placeholder { /* Firefox 19+ */
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    
+  }
+  :-ms-input-placeholder { /* IE 10+ */
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+   
+  }
+  :-moz-placeholder { /* Firefox 18- */
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+
+  /* submit button */
+  .submit-btn{
+      border: none;
+      border-radius: 15px;
+      background-color:rgba(0, 0, 255, 0.2);
+      color: white;
+      font-family: 'Courier New', Courier, monospace; 
+      padding-top: .2rem;
+      padding-bottom: .2rem;
+      padding-right: .5rem;
+      padding-left: .5rem;
+  }
+  .submit-btn:hover{
+    background-color:rgba(0, 0, 255, 0.5);
+  }
+
+
+@media screen and (min-width: 580px){
+    .contact-container .inner-container{
+        width: 30%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+}

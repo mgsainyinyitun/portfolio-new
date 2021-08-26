@@ -1,0 +1,69 @@
+.footer{
+    width: 100%;
+    background-color: #06111C;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    margin: 0;
+}
+
+.icon-link{
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.i-icon{
+    color: white;
+    font-size: 1.8rem;
+}
+
+.cpy-sign{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+
+/* Wave Css*/
+.wave {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.wave svg {
+    position: relative;
+    display: block;
+    width: calc(282% + 1.3px);
+    height: 500px;
+}
+
+.wave .shape-fill {
+    fill: #06111C;
+}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .icon-link{
+        width: 50%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .wave svg {
+        position: relative;
+        display: block;
+        width: calc(282% + 1.3px);
+        height: 300px;
+    }
+}

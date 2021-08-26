@@ -1,0 +1,42 @@
+.projects-container{
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.heading-title{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    border-bottom: 2px white solid;
+    margin: 0;
+    padding: 0;
+}
+.underline{
+    padding-bottom: 3px;
+    border-bottom: 2px white solid;
+    margin-bottom: 20px;
+}
+
+.skills-container{
+    width: 90%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+.sub-title{
+    background-color: #06111C;
+    padding: 3px;
+    color: #BB2020;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.3rem;
+}
+
+
+@media screen and (min-width: 700px) {
+    .skills-container{
+        margin-top: 5%;
+        margin-bottom: 2%;
+        width: 50%;
+    }
+  }

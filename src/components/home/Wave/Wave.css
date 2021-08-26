@@ -1,0 +1,41 @@
+.wave-container{
+    width: 100%;
+}
+
+.nav-wave{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.nav-wave svg {
+    position: relative;
+    display: block;
+    width: calc(139% + 1.3px);
+    height: 99px;
+}
+
+.nav-wave .shape-fill {
+    fill: #06111C;
+}
+
+.d-wave{
+    width: 100%;
+    position:inherit;
+}
+.up-btn{
+    margin-bottom: 50px;
+    font-size: 3rem;
+    
+}
+
+/** For tablet devices **/
+@media (min-width: 768px) and (max-width: 1023px) {
+    .nav-wave svg {
+        width: calc(171% + 1.3px);
+        height: 44px;
+    }
+}
