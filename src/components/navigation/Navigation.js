@@ -3,8 +3,7 @@ import './Navigation.css';
 
 import {faBars, faHome} from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {BrowserRouter as Router,Link,Switch,Route} from 'react-router-dom';
-import Home from '../home/Home';
+import {Link} from 'react-router-dom';
 import { ROUTE } from '../../Router/constant';
 
 class Navigation extends React.Component {

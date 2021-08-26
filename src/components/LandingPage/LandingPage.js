@@ -1,6 +1,5 @@
 import React from 'react';
 import './LandingPage.css';
-import avatar from '../../img/avatar.jpg';
 import cartoon from '../../img/Cartoonify.png';
 import 'animate.css';
 

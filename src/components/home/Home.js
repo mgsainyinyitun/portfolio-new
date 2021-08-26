@@ -1,8 +1,4 @@
 import React from 'react';
-import CardCarousel from '../BasicComponents/Card/CardCarousel';
-import CardGroup from '../BasicComponents/Card/CardGroup';
-import WavyBackground from '../BasicComponents/WavyBackground/WavyBackground';
-import Footer from '../Footer/Footer';
 import LandingPage from '../LandingPage/LandingPage';
 import Contact from './Contact/Contact';
 import Projects from './Projects';
@@ -15,8 +11,11 @@ render(){
     return(
         <>
             <LandingPage/>
+            <div className='bottom-margin-d'></div>
             <Projects/>
+            <div className='bottom-margin-d'></div>
             <Skills/>
+            <div className='bottom-margin-d'></div>
             <Contact/>
         </>
     );

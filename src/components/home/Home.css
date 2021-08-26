@@ -32,6 +32,28 @@
     font-size: 1.3rem;
 }
 
+.bottom-margin-d{
+    margin-bottom: 150px;
+}
+
+.quote-holder{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.quote{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    width: 90%;
+    text-align: justify;
+}
+.quote-writer{
+    width: 90%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(0, 189, 247);
+    text-align: left;
+}
+
 
 @media screen and (min-width: 700px) {
     .skills-container{
@@ -39,4 +61,19 @@
         margin-bottom: 2%;
         width: 50%;
     }
+  }
+
+@media screen and (min-width: 660px) {
+    .quote{
+        font-family: 'Courier New', Courier, monospace;
+        color: white;
+        width: 50%;
+    }
+    .quote-writer{
+        width: 50%;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        color: rgb(0, 189, 247);
+        text-align: left;
+    }
+
   }
