@@ -1,6 +1,7 @@
 import { Route } from "react-router-dom";
 import AboutMe from "../components/AboutMe/AboutMe";
 import Home from "../components/home/Home";
+import Projects from "../components/Projects/Projects";
 import { ROUTE } from "./constant";
 
 export const WebRoute = [
@@ -14,7 +15,7 @@ export const WebRoute = [
         key='2'
         path={ROUTE.PROJECTS}
         exact
-        component={(props)=> <h1>Projects</h1>}
+        component={(props)=> <Projects {...props} />}
     />,
     <Route
         key='3'
