@@ -7,7 +7,7 @@ import './Contact.css';
 class Contact extends React.Component{
     render(){
         return(
-            <div className='contact-container'>
+            <div className='contact-container' id='contact'>
                 <div className='inner-container'>
                     <div className='underline mb-5'>
                         <h2 className='heading-title' >CONTACT</h2>

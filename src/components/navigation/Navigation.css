@@ -46,9 +46,16 @@ header {
     color:#BB2020;
     text-decoration: none;
 }
+.home-icon{
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-left: 50px;
+  }
 .home-icon:hover{
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-left: 50px;
     color: rgba(15,51,92,1);
-    font-size: 1.5rem;
 }
 
 /*Navigation*/
@@ -77,6 +84,7 @@ header {
 }
 .menu ul a:hover {
     background-color: rgba(15,51,92,1);
+    background-image: radial-gradient( circle farthest-corner at 83.7% 4.3%,  #0f0061 0%, rgba(15,51,92,1) 90% );
     color: white;
     border-radius:35px;
 }

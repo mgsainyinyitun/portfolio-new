@@ -12,7 +12,9 @@ class Navigation extends React.Component {
         return(
            <header className='sticky'>
                <figure className='brand'>
-                   <FontAwesomeIcon icon={faHome} className='red home-icon'/>
+                   <Link to={ROUTE.HOME}>
+                    <FontAwesomeIcon icon={faHome} className='red home-icon'/>
+                   </Link>
                </figure>
                <nav className="menu">
                    <input type='checkbox' id='menuToggle'/>

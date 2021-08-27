@@ -12,7 +12,7 @@ render(){
             </div>
 
             <div className='quote-holder'>
-                <p className='quote'>Every skill you acquire doubles your odds of success</p>
+                <p className='quote qs'>Every skill you acquire doubles your odds of success</p>
                 <div className='quote-writer'><i>" Scott Adams " </i></div>  
             </div>
 
