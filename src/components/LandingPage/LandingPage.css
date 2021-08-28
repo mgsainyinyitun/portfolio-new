@@ -50,6 +50,7 @@
       
   }
 
+
   .avatar {
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -59,6 +60,8 @@
     width:25%;
     height:auto;
     border-radius: 50%;
+    background-image: radial-gradient( circle farthest-corner at 83.7% 4.3%,  rgba(4, 0, 231, 0.2) 0%, rgba(209, 3, 3, 0.2) 90% );
+    transform: rotate(-5deg);
   }
 
   .intro-txt{

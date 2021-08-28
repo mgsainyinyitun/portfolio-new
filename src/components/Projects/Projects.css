@@ -150,13 +150,13 @@ h1{
 
 @media screen and (min-width:600px) {
     .title-bar{
-        width: 75%;
+        width: 50%;
         display: flex;
         justify-content: space-between;
         padding: 1rem;
     }
     .proj-bar{
-        width: 75%;
+        width: 50%;
         display: flex;
         justify-content: space-between;
         padding: 1rem;
@@ -164,13 +164,13 @@ h1{
 
     .lower-curve {
         position: relative;
-        width: 75%;
+        width: 50%;
         overflow: hidden;
         line-height: 0;
     }
     .upper-curve {
         position: relative;
-        width: 75%;
+        width: 50%;
         overflow: hidden;
         line-height: 0;
     }

@@ -1,0 +1,21 @@
+.mail-icon{
+    position:fixed;
+    font-size: 3rem;
+    color: #BB2020;
+    z-index: 3;
+    bottom: 15px;
+    right: 15px;
+    padding: .5rem;
+    border-radius: 50%;
+    background-image: radial-gradient( circle farthest-corner at 83.7% 4.3%,  #160101 0%, rgba(15,51,92,1) 90% );
+}
+.mail-icon:hover{
+    animation: rotate-mail 1s;
+}
+
+@keyframes rotate-mail {
+    0% {transform: rotate(0deg);}
+    50%{transform: rotate(25deg);}
+    100%{transform: rotate(0deg);}
+  }
+  

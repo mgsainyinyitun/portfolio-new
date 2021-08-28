@@ -1,6 +1,6 @@
 import React from 'react';
 import './LandingPage.css';
-import cartoon from '../../img/Cartoonify.png';
+import cartoon from '../../img/profile-transparent.png';
 import { ROUTE } from '../../Router/constant';
 import 'animate.css';
 import { Link } from 'react-router-dom';
