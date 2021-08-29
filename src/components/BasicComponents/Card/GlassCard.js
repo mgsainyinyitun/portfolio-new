@@ -1,7 +1,5 @@
 import React from 'react';
 import './GlassCard.css';
-import cartoon from '../../../img/avatar.jpg';
-import avatar from '../../../img/Cartoonify.png';
 import dark from '../../../img/dark_.jpg';
 class GlassCard extends React.Component{
 
@@ -21,12 +19,12 @@ render(){
                 <div className='c_card'>
                     <div className='title'>
                         <h2>{this.state.title}</h2>
-                        <img src={dark} alt="Avatar" className="c-avatar "/>
+                        <img src={this.props.image || dark} alt="Avatar" className="c-avatar "/>
                     </div>
                     
                     <div className='c_content'>
-                            <p>{this.state.content}</p>
-                        <a href={this.state.link}>MORE</a>
+                        <p>{this.state.content}</p>
+                        <a href={this.state.link}>TRY NOW</a>
                     </div>
                 </div>
             </div>

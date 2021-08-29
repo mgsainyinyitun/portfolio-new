@@ -28,6 +28,7 @@ class Footer extends React.Component{
                     <FontAwesomeIcon icon={faLinkedin} className='i-icon' />
                     <FontAwesomeIcon icon={faTwitter} className='i-icon' />
                 </div>
+            
                 <div className='cpy-sign'>
                      <p><span>&#169;</span> SAI NYI NYI TUN</p>
                 </div>

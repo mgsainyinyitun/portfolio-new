@@ -9,6 +9,8 @@
 }
 .about-me{
     font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 2.em;
     color: white;
 }
 .upper-card{
@@ -53,7 +55,29 @@ img{
     margin-top: 20px;
     margin-bottom: 20px;
 }
+.gph-part{
+    display: flex;
+    justify-content: space-around;
+}
+.gph-element{
+    width: 40%;
+}
 
+.goup-ani{
+    transform: translateY(0px);
+}
+.goup-ani:hover{
+    transform: translateY(-10px);
+    animation: goupan 1s;
+}
+@keyframes goupan {
+    0%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+}
 
 
 

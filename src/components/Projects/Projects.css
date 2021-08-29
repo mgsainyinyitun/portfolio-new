@@ -14,21 +14,26 @@
 h1{
     font-family: 'Courier New', Courier, monospace;
     color: white;
+    font-weight: bold;
 }
 .title-bar p{
     font-family: 'Courier New', Courier, monospace;
     color: white;
 }
-.title-bar .p-icon{
-    font-size: 6rem;
-    color: white;
-    animation: rotate 5s infinite;
+.p-cartoon{
+    width: 35%;
+    border-radius: 10px;
+}
+.p-cartoon:hover{
+    transform: translateY(-10px);
+    animation: goup 0.5s;
 }
 
-/*@keyframes rotate {
-    0%{transform: rotate(0deg);}
-    100% {transform: rotate(360deg);}
-  }*/
+
+@keyframes goup {
+    0%{transform: translateY(-20px);}
+    100% {transform: translateY(0px);}
+}
 
 
 .lower-curve {
@@ -80,16 +85,20 @@ h1{
     align-items: center;
     width: 100%;
 }
-.project-content{
+.project{
+    background-image: radial-gradient( circle farthest-corner at 83.7% 4.3%,  rgba(4, 0, 231, 0.2) 0%, rgba(0, 0, 0, 0.2) 90% );
     color: white;
     font-family: 'Courier New', Courier, monospace;
-    width: 100%;
     min-height: 150px;
-    background-image: radial-gradient( circle farthest-corner at 83.7% 4.3%,  rgba(4, 0, 231, 0.2) 0%, rgba(0, 0, 0, 0.2) 90% );
     margin-top: 5px;
     margin-bottom: 5px;
     border-radius: 10px;
     padding: 5px;
+}
+.project-content{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -97,18 +106,29 @@ h1{
 
 /* Project Image */
 .proj-image{
-    width: 80%;
+    width: 100%;
     height: auto;
     margin-bottom: 10px;
     border-radius: 10px;
+    
+    transition:transform 0.25s ease;
 }
 
 
-.proj-info h4{
-    width: 50%;
+.proj-image:hover {
+    position: relative;
+    -webkit-transform:scale(2.5); /* or some other value */
+    transform:scale(2.5);
+}
+
+.project h4{
+    width: 100%;
+    font-weight: bold;
+    padding-bottom: 10px;
     color: white;
     border-bottom: 1px white dotted;
     margin-bottom: 25px;
+    letter-spacing: 0.125em;
 }
 
 
@@ -181,11 +201,11 @@ h1{
         flex-direction: row-reverse;
     }
     .proj-info{
-        width: 70%;
+        width: 60%;
         margin-right: 1rem;
     }
     .proj-image{
-        width: 30%;
+        width: 40%;
     }
 
 

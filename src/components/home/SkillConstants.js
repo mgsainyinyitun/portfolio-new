@@ -54,6 +54,14 @@ export const OTHERS = [
         skill:'JAVA FX',
         percent:75,
     },
+    {
+        skill:'WORDPRESS',
+        percent:75
+    },
+    {
+        skill:'WIX',
+        percent:80,
+    }
 
 
 ];

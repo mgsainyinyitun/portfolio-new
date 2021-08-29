@@ -57,8 +57,8 @@
 /* content and hover effect */
 .c_container .c_card .c_content{
     padding: 20px;
-    text-align: justify;
-    transform:translateY(100px);
+    text-align: center;
+    transform:translateY(50px);
     opacity: 0;
     transition: 0.5s;
 }
@@ -66,6 +66,7 @@
 .c_container .c_card:hover .c_content{
     transform: translateY(0px);
     opacity: 1;
+    color: red;
 }
 
 /* content and hover effect */
@@ -79,9 +80,14 @@
 }
 
 .c_container .c_card .c_content p{
-    font-size: 1em;
-    color: blue;
-    font-weight: 300;
+    font-size: 1.2em;
+    border: 1px blueviolet solid;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    padding: 0.4rem;
+    color: red;
+    font-weight: bold;
+    margin-top: 50px;
 }
 
 .c_container .c_card .c_content a{

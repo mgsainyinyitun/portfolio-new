@@ -18,12 +18,28 @@
     color: white;
     font-size: 1.8rem;
 }
+.i-icon:hover{
+    color: rgba(9, 98, 231, 0.5);
+    animation: goup 1s;
+    transform: translateY(-10px);
+}
+@keyframes goup{
+    0%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+}
 
 .cpy-sign{
     color: white;
     font-family: 'Courier New', Courier, monospace;
     font-size: 1rem;
-    margin-top: 10px;
+    margin-top: 30px;
+    border-top: 1px white solid;
+    padding-top: 20px;
+
 }
 
 

@@ -13,7 +13,7 @@ class LandingPage extends React.Component {
             <section className='main-home'>
                 <div className="content">
                     <h1 className='my-name animate__animated animate__bounceIn'>SAI NYI NYI TUN</h1>
-                    <p className='short'>THE ODYSSEY OF A SOFTWARE AND FULL-STACK WEB DEVELOPER.</p>
+                    <p className='short'>THE ODYSSEY OF A DEVELOPER.</p>
                     
                     <div>
                         <img src={cartoon} alt="Avatar" class="avatar"/>
@@ -35,7 +35,7 @@ class LandingPage extends React.Component {
                         </p>
                         <p>
                             I am graduated from Technological University Mandalay
-                            with Electronics background. I am now doing software 
+                            with Electronics background. Interesting doing software 
                             development and also web development.
                         </p>
                     </div>

@@ -23,6 +23,10 @@
       font-style: normal;
       letter-spacing: 0.125em;
       font-size: 3rem;
+      font-weight: bold;
+      background-image: linear-gradient(45deg, #ffffff, #a1121e);
+      background-clip:text;
+      -webkit-text-fill-color: transparent;
   }
 
 .m-btn{
@@ -63,6 +67,11 @@
     background-image: radial-gradient( circle farthest-corner at 83.7% 4.3%,  rgba(4, 0, 231, 0.2) 0%, rgba(209, 3, 3, 0.2) 90% );
     transform: rotate(-5deg);
   }
+  .avatar:hover{
+    box-shadow: 5px 5px 3px rgba(0,0,0,0.3);
+    background-image: radial-gradient( circle farthest-corner at 83.7% 4.3%,  rgba(209, 3, 3, 0.2) 0%, rgba(4, 0, 231, 0.2) 90% );
+  }
+
 
   .intro-txt{
       width: 40%;
@@ -72,6 +81,9 @@
       margin: 1rem;
       text-align: justify;
       font-family: 'Courier New', Courier, monospace;
+  }
+  .q-btn{
+    border-radius: 20px;
   }
   .q-btn:hover{
     box-shadow: 5px 5px 3px rgba(0,0,0,0.3);

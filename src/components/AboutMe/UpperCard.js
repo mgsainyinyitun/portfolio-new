@@ -8,7 +8,7 @@ export default function UpperCard (){
                 <h2 className='about-me'>ABOUT ME</h2>
                 <p className='quote'>Warmly welcome. Have a nice day</p>
             </div>
-            <img src={Profile} className='profile' />
+            <img src={Profile} className='profile goup-ani' />
         </div>
     )
     

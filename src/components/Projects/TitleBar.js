@@ -1,7 +1,5 @@
-import { faUncharted } from '@fortawesome/free-brands-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import pCartoon from '../../img/info/Coding.svg';
 import React from 'react';
-
 
 export default function TitleBar(){
  return (
@@ -16,7 +14,7 @@ export default function TitleBar(){
                 <h1>PROJECTS</h1>
                 <p>I believe the best and efficient  way to learning programming is by doing projects.</p>
             </div>
-            <FontAwesomeIcon icon={faUncharted} className='p-icon'/>
+            <img src={pCartoon} className='p-cartoon' />
          </div>
      </>
  );
