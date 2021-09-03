@@ -1,4 +1,4 @@
-import { faFacebook, faGithub, faLinkedin, faTwitter, faUps } from '@fortawesome/free-brands-svg-icons';
+import { faFacebook, faGithub, faLinkedin, faTwitter, faUps, faYoutube } from '@fortawesome/free-brands-svg-icons';
 import { faArrowCircleUp } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
@@ -23,10 +23,21 @@ class Footer extends React.Component{
                         />
                 </a>
                 <div className='icon-link'>
-                    <FontAwesomeIcon icon={faGithub} className='i-icon' />
-                    <FontAwesomeIcon icon={faFacebook} className='i-icon' />
-                    <FontAwesomeIcon icon={faLinkedin} className='i-icon' />
-                    <FontAwesomeIcon icon={faTwitter} className='i-icon' />
+                    <a href='https://www.github.com/mgsainyinyitun'>
+                        <FontAwesomeIcon icon={faGithub} className='i-icon' />
+                    </a>
+                    <a href="https://web.facebook.com/profile.php?id=100005919649109\&_rdc=1&_rdr">
+                        <FontAwesomeIcon icon={faFacebook} className='i-icon' />
+                    </a>
+                    <a href='https://www.linkedin.com/in/sai-nyi-13356517b'>
+                        <FontAwesomeIcon icon={faLinkedin} className='i-icon' />
+                    </a>
+                    <a href='https://twitter.com/SaiNyi69795841'>
+                        <FontAwesomeIcon icon={faTwitter} className='i-icon' />
+                    </a>
+                    <a href='https://www.youtube.com/channel/UCyIywrOstPOwpNWgwQ5AY0A'>
+                        <FontAwesomeIcon icon={faYoutube} className='i-icon' />
+                    </a>
                 </div>
             
                 <div className='cpy-sign'>
