@@ -1,0 +1,82 @@
+.resume-container{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+
+}
+.h-info h1{
+    font-size: 1.5rem;
+}
+
+.holder{
+    width: 95%;
+}
+
+.header{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    padding: 1rem;
+    background-color: rgba(0, 200,200, 0.1);
+    border-radius: 10px;
+}
+.h-info{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.h-right{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    align-items:center;
+}
+
+.h-photo{
+    width: 50%;
+    height: auto;
+    max-width: 100px;
+    min-width: 100px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+.nrc{
+    font-size: 8px;
+}
+
+.dwl-btn{
+    background:rgba(200, 0, 0, .5);
+    padding: .5rem;
+    border-radius: 50px;
+    color: white;
+    font-weight: bolder;
+}
+
+
+@media screen and (min-width:760px) {
+    .holder{
+        width: 50%;
+    }
+    .header{
+        color: white;
+        font-family: 'Courier New', Courier, monospace;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 1rem;
+        background-color: rgba(0, 200,200, 0.1);
+        border-radius: 10px;
+    
+    }
+    .h-photo{
+        width: 100%;
+        height: auto;
+    }
+
+}

@@ -2,6 +2,7 @@ import { Route } from "react-router-dom";
 import AboutMe from "../components/AboutMe/AboutMe";
 import Home from "../components/home/Home";
 import Projects from "../components/Projects/Projects";
+import Resume from "../components/Resume/Resume";
 import { ROUTE } from "./constant";
 
 export const WebRoute = [
@@ -27,7 +28,7 @@ export const WebRoute = [
         key='4'
         path={ROUTE.RESUME}
         exact
-        component={(props)=> <h1>RESUME</h1>}
+        component={(props)=> <Resume/>}
     />,
     <Route
         key='4'

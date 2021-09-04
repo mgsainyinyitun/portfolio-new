@@ -1,0 +1,29 @@
+.i-container{
+    margin-top: 10px;
+    width: 100%;
+    border: 1px rgba(0, 200, 200, 0.1) solid;
+    padding: 1rem;
+    border-radius: 10px;
+    color: white;
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.i-header h3{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 1.6rem;
+    color: white;
+
+}
+
+.i-body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1rem;
+
+}
+
+.list-items li{
+    list-style: circle;
+    color: white;
+}
+
