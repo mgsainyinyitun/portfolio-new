@@ -2,7 +2,7 @@ import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import './Contact.css';
-
+import ContactForm from './ContactForm';
 
 class Contact extends React.Component{
     render(){
@@ -29,18 +29,7 @@ class Contact extends React.Component{
                             </div>
                         </div>
 
-                        <div className='glass-form'>
-                            <input type="text" name = 'name' placeholder="NAME"/>
-                            <input type='email' name='email' placeholder='E-MAIL'/>
-                            <input type='text' name='subject' placeholder='SUBJECT'/>
-                            <textarea rows="4" cols="50" name='message' placeholder="MESSAGE">
-                            </textarea>
-                            <div>
-                                <button className='submit-btn'>
-                                    SUBMIT
-                                </button>
-                            </div>
-                        </div>
+                        <ContactForm/>
 
 
                     </div>

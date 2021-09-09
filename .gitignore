@@ -21,3 +21,7 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# EmailJS ID
+/src/ID.js
+/src/components/home/Contact/EMAILJS.js
