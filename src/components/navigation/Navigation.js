@@ -1,14 +1,18 @@
 import React from 'react';
 import './Navigation.css';
 
+
 import {faBars, faHome} from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {Link} from 'react-router-dom';
 import { ROUTE } from '../../Router/constant';
 
+
+
 class Navigation extends React.Component {
 
     render(){
+        const curR = window.location.pathname;
         return(
            <header className='sticky'>
                <figure className='brand'>
@@ -20,11 +24,45 @@ class Navigation extends React.Component {
                    <input type='checkbox' id='menuToggle'/>
                    <label htmlFor='menuToggle' className='menu-icon'><FontAwesomeIcon icon={faBars} className='red'/></label>
                     <ul>
-                        <Link to={ROUTE.HOME}><li>HOME</li></Link>
-                        <Link to={ROUTE.PROJECTS}><li>PROJECTS</li></Link>
-                        <Link to={ROUTE.ABOUT_ME}><li>ABOUT ME</li></Link>
-                        <Link to={ROUTE.RESUME}><li>RESUME</li></Link>
-                        <Link to={ROUTE.BLOG}><li>BLOGS</li></Link>
+                        <Link to={ROUTE.HOME}>
+                            <li>
+                                <span className={curR===ROUTE.HOME?'active':null}>
+                                    HOME
+                                </span>
+                            </li>
+                        </Link>
+
+                        <Link to={ROUTE.PROJECTS}>
+                            <li>
+                                <span className={curR===ROUTE.PROJECTS?"active":null}>
+                                    PROJECTS
+                                </span>
+                            </li>
+                        </Link>
+
+                        <Link to={ROUTE.ABOUT_ME}>
+                            <li>
+                                <span className={curR===ROUTE.ABOUT_ME?"active":null}>
+                                
+                                        ABOUT ME
+                                    
+                                </span>
+                            </li>
+                        </Link>
+                        <Link to={ROUTE.RESUME}>
+                            <li>
+                                <span className={curR===ROUTE.RESUME?"active":null}>
+                                        RESUME
+                                </span>
+                            </li>
+                        </Link>
+                        <Link to={ROUTE.BLOG}>
+                        <li>
+                            <span className={curR===ROUTE.BLOG?"active":null}>
+                                BLOGS
+                            </span>
+                        </li>
+                        </Link>
                     </ul>
                </nav>
            </header>
