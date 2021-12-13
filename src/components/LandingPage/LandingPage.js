@@ -35,8 +35,15 @@ class LandingPage extends React.Component {
                         </p>
                         <p>
                             I am graduated from Technological University Mandalay
-                            with Electronics background. Interesting doing software 
-                            development and also web development.
+                            with Electronics background. During my university study period, 
+                            programming is my favourite subject. 
+                            I am really interesting doing software 
+                            development and also web development. 
+
+                        </p>
+                        <p>
+                            In the future, I would like to become one of the 
+                            best developer.
                         </p>
                     </div>
                 </div>

@@ -5,7 +5,8 @@ import {paragraphs} from './About';
 export default function LowerCard(){
     return(
         <div className='lower-card'>
-            <h1>Hi</h1>
+            <h1>Hi </h1>
+
             {
                 paragraphs.map(paragraph => {
                     return(

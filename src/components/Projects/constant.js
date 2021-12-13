@@ -59,4 +59,16 @@ export const web = [
         source_link:'https://github.com/mgsainyinyitun/basicwebdesign'
     },
 
+
+    // {
+    //     image:Web,
+    //     title:'AUTOMATIC HELMET DETECTION AND PUNISHMENT SYSTEM DESIGN WITH MATLAB (B.E Thesis)',
+    //     description:'My B.E graduation. Basically I design a prototype model that take image input and detect whether a motocycle ',
+    //     try_link:'https://basicwebdesign.mgsainyinyitun.vercel.app/',
+    //     source_link:'https://github.com/mgsainyinyitun/basicwebdesign'
+    // },
+
+
+
+
 ];

@@ -1,6 +1,7 @@
 import React from 'react';
 import './Home.css';
 import CardCarousel from '../BasicComponents/Card/CardCarousel';
+import ProjectsCarousel from '../ProjectsCarousel/ProjectsCarousel';
 
 class Projects extends React.Component{
     render(){
@@ -15,6 +16,7 @@ class Projects extends React.Component{
                 <div className='quote-writer'><i>" David Rockwell " </i></div>  
             </div>
             <CardCarousel/>
+            {/*<ProjectsCarousel/>*/}
         </div>  
         )
     }

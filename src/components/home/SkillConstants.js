@@ -12,6 +12,10 @@ export const PROGRAMMING = [
         percent:85
     },
     {
+        skill:'MATLAB',
+        percent:75
+    },
+    {
         skill:'DART',
         percent:50
     },
