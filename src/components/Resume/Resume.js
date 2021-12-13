@@ -62,7 +62,7 @@ class Resume extends React.Component{
                                     <a href='tel:+959 4400 9573'>
                                     <p>+959 4400 96573 </p>
                                     </a>
-                                    <a className='dwl-btn' href='https://drive.google.com/file/d/1TpMIo4UNlSv5OQ9QHx0mNc8nnGo34B4i/view'>DOWNLOAD</a>
+                                    <a className='dwl-btn' href='https://drive.google.com/file/d/1sFSlBgWvVlQVpfS-JFkpGlShM4Z5-NCO/view?usp=sharing'>DOWNLOAD</a>
                                 </div>
                             </div>
 
