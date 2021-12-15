@@ -5,12 +5,15 @@ import MailIcon from './BasicComponents/Mail/MailIcon';
 import Footer from './Footer/Footer';
 import DivideWave from './home/Wave/DivideWave';
 import Navigation from './navigation/Navigation';
+import {connect} from 'react-redux'
+import { changeLanguage } from '../redux/action';
 
-function Main() {
+function Main(props) {
     let location = useLocation();
+       
         return(
             <>
-                <Navigation/>
+                <Navigation changeLanguage = {props.changeLanguage} />
                 <DivideWave/>
                     <Switch>
                         {WebRoute}
@@ -23,4 +26,6 @@ function Main() {
     }
 
 
-export default Main;
+export default connect(null,{
+    changeLanguage,
+})(Main) ;

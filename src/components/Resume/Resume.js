@@ -68,7 +68,7 @@ class Resume extends React.Component{
 
                            
                            <div className='h-right'>
-                                <img src={Profile} className='h-photo'/>
+                                <img src={Profile} alt="Profile picture" className='h-photo'/>
                                 <p className='nrc'> 13/NAKHANA (N) 068390 </p>
                            </div>
                             

@@ -5,15 +5,34 @@ import { ROUTE } from '../../Router/constant';
 import 'animate.css';
 import { Link } from 'react-router-dom';
 
+import {connect} from 'react-redux';
+import { TEXT } from './LandingPageTxT';
+
+
+
+
 
 class LandingPage extends React.Component {
+    constructor(props){
+        super(props);
+        this.state={
+            language:props.language,
+        }
+    }
+
 
     render() {
+        var TXT = TEXT.MYANMAR;
+        if(this.props.language == 'english'){
+            TXT = TEXT.ENGLISH;
+        }
+
+
         return(
             <section className='main-home'>
                 <div className="content">
-                    <h1 className='my-name animate__animated animate__bounceIn'>SAI NYI NYI TUN</h1>
-                    <p className='short'>THE ODYSSEY OF A DEVELOPER.</p>
+                    <h1 className='my-name animate__animated animate__bounceIn'>{TXT.NAME}</h1>
+                    <p className='short'>{TXT.SHORT}</p>
                     
                     <div>
                         <img src={cartoon} alt="Avatar" class="avatar"/>
@@ -31,19 +50,13 @@ class LandingPage extends React.Component {
 
                     <div className='intro-txt'>
                         <p>
-                            Welcome to my portfolio
+                            {TXT.MESSAGE.P1}
                         </p>
                         <p>
-                            I am graduated from Technological University Mandalay
-                            with Electronics background. During my university study period, 
-                            programming is my favourite subject. 
-                            I am really interesting doing software 
-                            development and also web development. 
-
+                            {TXT.MESSAGE.P2}
                         </p>
                         <p>
-                            In the future, I would like to become one of the 
-                            best developer.
+                            {TXT.MESSAGE.P3}
                         </p>
                     </div>
                 </div>
@@ -52,4 +65,10 @@ class LandingPage extends React.Component {
     }
 }
 
-export default LandingPage;
+function mapStateToProps (state) {
+    return {
+        language:state.language,
+    }
+}
+
+export default connect(mapStateToProps)(LandingPage);

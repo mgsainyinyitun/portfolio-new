@@ -10,7 +10,7 @@ import {openNotificationWithIconSuccess,openNotificationWithIconError} from './N
     const [email,setEmail] = useState('');
     const [message,setMessage] = useState('');
     const [subject,setSubject] = useState('');
-    const [emailSent,setEmailSent] = useState(false);
+    
 
     const isValidEmail = email => {
         const regex = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
@@ -55,7 +55,7 @@ import {openNotificationWithIconSuccess,openNotificationWithIconError} from './N
             setEmail('');
             setMessage('');
             setSubject('');
-            setEmailSent(true);
+           
         }else{
             alert("Please Fill in All  Fields");
         }

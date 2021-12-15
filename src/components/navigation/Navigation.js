@@ -1,6 +1,6 @@
 import React from 'react';
 import './Navigation.css';
-import {Menu,Dropdown,Button} from 'antd';
+import {connect} from 'react-redux';
 
 
 import {faBars, faHome} from '@fortawesome/free-solid-svg-icons'
@@ -9,33 +9,11 @@ import {Link} from 'react-router-dom';
 import { ROUTE } from '../../Router/constant';
 
 
-
-
-
 class Navigation extends React.Component {
 
-    onLanguageChange = (language) =>{
-        console.log("Change Language");
-        console.log('->',language);
+    constructor(props){
+        super(props);
     }
-
-     getMenu = () =>{
-         return(
-            <Menu>
-                <Menu.Item key={'english'}>
-                <span onClick={this.onLanguageChange('english')}>
-                    ENGLISH
-                </span>
-                </Menu.Item>
-                <Menu.Item key={'myanmar'} onClick={this.onLanguageChange('myanmar')}>
-                <span onClick={this.onLanguageChange('myanmar')}>
-                    MYANMAR
-                </span>
-                </Menu.Item>
-          </Menu>
-         );
-     }
-        
 
     render(){
         const curR = window.location.pathname;
@@ -83,22 +61,21 @@ class Navigation extends React.Component {
                             </li>
                         </Link>
                         
-                        {/* <Link to={'/#'} >
+                        
                             <li>
-                                <Dropdown overlay={this.getMenu()} placement="bottomLeft" arrow>
-                                    <span
-                                        className={curR==ROUTE.BLOG?"active":null}
-                                    >LANGUAGE
-                                    </span>
-                                </Dropdown>
+                                <select className='lang-select'
+                                    defaultValue={'english'}
+                                    onChange={
+                                        e => this.props.changeLanguage(e.target.value) 
+                                    }
+                                >
+                                    <option value="english">English</option>
+                                    <option value="myanmar">Myanmar</option>
+
+                                </select>
                             </li>
-                            {/* <li>
-                                <span 
-                                    className={curR==ROUTE.BLOG?"active":null}>
-                                    LANGUAGE
-                                </span>
-                            </li> 
-                        </Link> */}
+                        
+                        
         
                         
                         {/* 
@@ -119,4 +96,10 @@ class Navigation extends React.Component {
     }
 }
 
-export default Navigation;
+const mapStateToProps = state =>{
+    return {
+        language:state.language
+    } 
+}
+
+export default Navigation ;

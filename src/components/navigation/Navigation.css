@@ -105,6 +105,15 @@ header {
     width: 50%;
 }
 
+/* for language select */
+.lang-select{
+    padding: .2rem;
+    border-radius:10px;
+    border-color: darkblue;
+    background-color:darkblue;
+    color: white;
+}
+
 
 /* < 768px*/
 @media screen and (max-width: 768px) {
@@ -151,5 +160,7 @@ header {
         background-color: rgba(15,51,92,1);
         color: white;
     }
+
+
 }
 

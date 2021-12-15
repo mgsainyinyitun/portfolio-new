@@ -5,8 +5,7 @@ import GlassCard from "./GlassCard";
 import Chat from '../../../img/projects/chatwithfriend.png';
 import HelpDesk from '../../../img/projects/helpdesk.gif';
 import snake from '../../../img/projects/snake_game.gif';
-import tictoe from '../../../img/projects/tic-tak-tok.gif';
-import Web from '../../../img/projects/basicweb.gif';
+
 
 
 class CardCarousel extends React.Component{

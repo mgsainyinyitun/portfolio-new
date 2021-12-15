@@ -7,10 +7,22 @@ import Skills from './Skills';
 
 class Home extends React.Component {
 
+constructor(props){
+    super(props);
+    this.state = {
+        language:props.language,
+    }
+}
+componentDidUpdate(){
+    console.log('update',this.state.language);
+}
+
+
 render(){
+    console.log("current language is:",this.props.language);
     return(
         <>
-            <LandingPage/>
+            <LandingPage />
             <div className='bottom-margin-d'></div>
             <Projects/>
             <div className='bottom-margin-d'></div>
@@ -21,6 +33,7 @@ render(){
     );
  }
 }
+
 
 export default Home;
 
