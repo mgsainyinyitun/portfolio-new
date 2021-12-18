@@ -1,10 +1,13 @@
 import React from 'react';
 import SkillsProgressBar from '../BasicComponents/ProgressBar/SkillsProgressBar';
-import {OTHERS, PROGRAMMING,WEB_DEVELOPMENT} from './SkillConstants';
+import {TEXT,OTHERS, PROGRAMMING,WEB_DEVELOPMENT} from './SkillConstants';
+import {connect} from 'react-redux';
 
 class Skills extends React.Component{
 
 render(){
+    const TXT = this.props.language === 'english'?TEXT.ENGLISH:TEXT.MYANMAR;
+
     return(
         <div className='projects-container'>
             <div className='underline mb-5'>
@@ -12,8 +15,8 @@ render(){
             </div>
 
             <div className='quote-holder'>
-                <p className='quote qs'>Every skill you acquire doubles your odds of success</p>
-                <div className='quote-writer'><i>" Scott Adams " </i></div>  
+                <p className='quote qs'>{TXT.S_QUOTE.MESSAGE}</p>
+                <div className='quote-writer'><i>{TXT.S_QUOTE.AUTHER} </i></div>  
             </div>
 
             <div className='skills-container'>  
@@ -40,4 +43,10 @@ render(){
     }
 }
 
-export default Skills;
+function mapStateToProps (state) {
+    return {
+        language:state.language,
+    }
+}
+
+export default connect(mapStateToProps)(Skills) ;

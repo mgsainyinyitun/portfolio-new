@@ -1,19 +1,27 @@
 import React from 'react';
 import './Home.css';
+
+import {TEXT} from './ProjectConstant';
 import CardCarousel from '../BasicComponents/Card/CardCarousel';
-import ProjectsCarousel from '../ProjectsCarousel/ProjectsCarousel';
+// import ProjectsCarousel from '../ProjectsCarousel/ProjectsCarousel';
+import {connect} from 'react-redux';
+
 
 class Projects extends React.Component{
     render(){
+
+        const TXT = this.props.language === 'english'?TEXT.ENGLISH:TEXT.MYANMAR;
+
         return(
         <div className='projects-container'>
             <div className='underline mb-5'>
                 <h2 className='heading-title' >PROJECTS SELECTION</h2>
             </div>
             <div className='quote-holder'>
-                <p className='quote'>Every project is an opportunity to learn, to figure out problems and challenges, 
-                    to invent and reinvent</p>
-                <div className='quote-writer'><i>" David Rockwell " </i></div>  
+                <p className='quote'>
+                   {TXT.P_QUOTE.MESSAGE}
+                </p>
+                <div className='quote-writer'><i>{TXT.P_QUOTE.AUTHER} </i></div>  
             </div>
             <CardCarousel/>
             {/*<ProjectsCarousel/>*/}
@@ -23,4 +31,11 @@ class Projects extends React.Component{
 
 }
 
-export default Projects;
+function mapStateToProps (state) {
+    return {
+        language:state.language,
+    }
+}
+
+
+export default connect(mapStateToProps)(Projects);

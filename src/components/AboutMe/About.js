@@ -59,12 +59,12 @@ export const paragraphs = {
             graphic:[G1,G2],
         },
         {
-            text: "I worked as a part time trainer at TechnoNet Engineering Training Center, Mandalay."+ 
-            "I have trained programming subjects such as Java, Python and other Engineering subjects"+
-            " such as Basic Electrical and Electronics, Peripheral Interface Controller (PIC),"+
-            " Computer System Engineering A+. I am also a web designer volunteer at Youth Society"+
-            " for Education (YSE).From volunteering, I have experience in web languages such as HTML5,"+
-            " CSS, JavaScript, PHP, Bootstrap, Reactjs, Nodejs and many other website related.",
+            text: "TechnoNet Engineering Training Center, Mandalay မှာ part time trainer တစ်ယောက် အနေ နဲ့ ဝင်လုပ် ဖူးပါတယ်။ "+ 
+            " အဲဒီမှာ ကျွန်တော်က  programming နဲ့ ပတ်သက်တဲ့ subjects တွေဖြစ်တဲ့  Java, Python စတာတွေ အပြင် အခြား Engineering နဲ့သက်ဆိုင်သော "+
+            " Basic Electrical and Electronics, Peripheral Interface Controller (PIC),"+
+            " Computer System Engineering A+ စတာတွေကို သင်ရပါတယ်။ ကျွန်တော်က Youth Society"+
+            " for Education (YSE) မှာလည်း Web developer တစ်ယောက်အနေ နဲ့ volunteer လုပ်နေ ပါတယ်။ အဲဒီ ကနေတစ်ဆင့်  ကျွန်တော်က  web languages နဲ့ ပတ်သက်တဲ့ HTML5,"+
+            " CSS, JavaScript, PHP, Bootstrap, Reactjs, Nodejs စတာတွေကို အများကြီး သိခွင့် လေ့လာခွင့် ရပါတယ်။",
             graphic:[G4],
         },
         {

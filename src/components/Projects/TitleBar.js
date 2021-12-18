@@ -1,7 +1,21 @@
 import pCartoon from '../../img/info/Coding.svg';
 import React from 'react';
 
-export default function TitleBar(){
+
+const TITLE = {
+    ENGLISH:"I believe the best and efficient  way to learning programming is by doing projects.",
+    MYANMAR:"Programming လေ့လာဖို့ အကောင်းဆုံးနဲ့ အထိရောက်ဆုံး နည်းလမ်းက တော့ မိမိကိုယ်တိုင် Projects တွေကို ဖန်တီး ခြင်းဘဲ ဖြစ်တယ်။"
+}
+
+
+
+export default function TitleBar(props){
+
+var TXT = TITLE.MYANMAR;
+if(props.language === 'english'){
+    TXT = TITLE.ENGLISH;
+}
+
  return (
      <>
         <div class="lower-curve">
@@ -12,7 +26,7 @@ export default function TitleBar(){
         <div className='title-bar'>
          <div>
                 <h1>PROJECTS</h1>
-                <p>I believe the best and efficient  way to learning programming is by doing projects.</p>
+                <p>{TXT}</p>
             </div>
             <img src={pCartoon} className='p-cartoon' />
          </div>

@@ -1,3 +1,20 @@
+export const TEXT = {
+    ENGLISH:{
+        S_QUOTE:{
+            MESSAGE:"Every skill you acquire doubles your odds of success",
+            AUTHER:'" Scott Adams "',
+        },
+    },
+
+    MYANMAR:{
+        S_QUOTE:{
+            MESSAGE:" သင့်ဆီမှာ ရှိတဲ့ skill တိုင်းက သင်အောင် မြင်ဖို့ လိုအပ်တဲ့ ကံကြမ္မာကို နှစ်ဆ ဖြစ်စေပါတယ် ။ ",
+            AUTHER:'" Scott Adams "',
+        },
+    }
+}
+
+
 export const PROGRAMMING = [
     {
         skill:'C++',
