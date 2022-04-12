@@ -48,6 +48,10 @@ export const WEB_DEVELOPMENT = [
         percent:85,
     },
     {
+        skill:'Tailwind CSS',
+        percent:87,
+    },
+    {
         skill:'JAVA SCRIPT',
         percent:70,
     },
@@ -58,6 +62,10 @@ export const WEB_DEVELOPMENT = [
     {
         skill:'DJANGO',
         percent:80,
+    },
+    {
+        skill:'Java EE',
+        percent:50,
     },
     {
         skill:'UI DESIGN',
@@ -77,7 +85,7 @@ export const OTHERS = [
     },
     {
         skill:'WORDPRESS',
-        percent:75
+        percent:90
     },
     {
         skill:'WIX',
