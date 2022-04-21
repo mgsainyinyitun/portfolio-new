@@ -1,6 +1,6 @@
 import React from 'react';
 import SkillsProgressBar from '../BasicComponents/ProgressBar/SkillsProgressBar';
-import {TEXT,OTHERS, PROGRAMMING,WEB_DEVELOPMENT} from './SkillConstants';
+import {TEXT,OTHERS, PROGRAMMING,WEB_DEVELOPMENT,WEB_FRAMEWORK} from './SkillConstants';
 import {connect} from 'react-redux';
 
 class Skills extends React.Component{
@@ -30,6 +30,11 @@ render(){
                 <h3 className='sub-title'>WEB DEVELOPMENT</h3>
             </div>
             <SkillsProgressBar skills={WEB_DEVELOPMENT}/>
+
+            <div className='skills-container'>  
+                <h3 className='sub-title'>WEB FRAMEWORK</h3>
+            </div>
+            <SkillsProgressBar skills={WEB_FRAMEWORK}/>
 
 
             <div className='skills-container'>  

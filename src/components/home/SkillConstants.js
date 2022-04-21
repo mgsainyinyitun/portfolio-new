@@ -47,25 +47,14 @@ export const WEB_DEVELOPMENT = [
         skill:'CSS',
         percent:85,
     },
-    {
-        skill:'Tailwind CSS',
-        percent:87,
-    },
+    
     {
         skill:'JAVA SCRIPT',
         percent:70,
     },
     {
-        skill:'REACT JS',
-        percent:80,
-    },
-    {
-        skill:'DJANGO',
-        percent:80,
-    },
-    {
-        skill:'Java EE',
-        percent:50,
+        skill:'PHP',
+        percent:85,
     },
     {
         skill:'UI DESIGN',
@@ -73,6 +62,37 @@ export const WEB_DEVELOPMENT = [
     },
 
 ];
+
+
+
+export const WEB_FRAMEWORK = [
+    {
+        skill:'REACT JS',
+        percent:84,
+    },
+    {
+        skill:'JavaEE',
+        percent:60,
+    },
+    {
+        skill:'Laravel',
+        percent:70,
+    },
+    {
+        skill:'DJANGO',
+        percent:80,
+    },
+    {
+        skill:'Tailwind CSS',
+        percent:85,
+    },
+    {
+        skill:'Bootstrap CSS',
+        percent:90,
+    },
+
+];
+
 
 export const OTHERS = [
     {

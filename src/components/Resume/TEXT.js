@@ -30,7 +30,7 @@ export const RESUME = {
         DATA:[
             'Burmese / Shan',
             'English (Intermediate)',
-            'Japanese (Basic)',
+            'Japanese (N4 Passed)',
         ]
     },
 
