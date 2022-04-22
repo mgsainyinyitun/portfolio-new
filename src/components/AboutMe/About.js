@@ -29,25 +29,29 @@ export const paragraphs = {
     ENGLISH:[
 
     {
-        text:"My name is Sai Nyi Nyi Tun. I am graduated from technological university Mandalay with Electronics."+
-        "After graduating from Technological University Mandalay in 2020 with Electronics,"+
-        "I have acquired many Electrical, Electronics, Computer related and computer programming"+
-        " knowledge and skills from my course. As I want to be a best Engineer I always find chances "+ 
-        "to improve my skills in Electrical,Electronics, programming and other related fields.",
+        text:"My name is Sai Nyi Nyi Tun, graduated from Technological University Mandalay in Electronics. "+
+        "After graduated from Technological University Mandalay in 2020,"+
+        "I have acquired many Electrical, Electronics, Computer related and Computer programming"+
+        " knowledge and skills from my courses. As I am passionate about software, computers, and technology I always seek changes "+ 
+        "to improve my IT skills.",
         graphic:[G1,G2],
     },
     {
-        text: "I worked as a part time trainer at TechnoNet Engineering Training Center, Mandalay."+ 
-        "I have trained programming subjects such as Java, Python and other Engineering subjects"+
-        " such as Basic Electrical and Electronics, Peripheral Interface Controller (PIC),"+
-        " Computer System Engineering A+. I am also a web designer volunteer at Youth Society"+
-        " for Education (YSE).From volunteering, I have experience in web languages such as HTML5,"+
-        " CSS, JavaScript, PHP, Bootstrap, Reactjs, Nodejs and many other website related.",
+        text: "After graduated, I worked as a programming trainer at TechnoNet Engineering Training Center, Mandalay."+ 
+        "I taught and guided students in many programming languages especially in Java, Python and other web related subjects"+
+        " such as HTLM5, CSS, JavaScript, PHP and Django. "+
+        "Beside, I am also a web developer volunteer at Youth Society for Education (YSE). "+
+        " From volunteering, I gained experience in web languages such as HTML5,"+
+        " CSS, JavaScript, PHP, Bootstrap, Reactjs, Nodejs and many other website related knowledge.",
         graphic:[G4],
     },
     {
         text:'',
         graphic:[G3,G5],
+    },
+    {
+        text:'',
+        graphic:[],
     }
 ],
     MYANMAR:[
