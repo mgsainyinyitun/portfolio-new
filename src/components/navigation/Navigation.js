@@ -8,12 +8,15 @@ import { ROUTE } from '../../Router/constant';
 import { connect } from 'react-redux';
 
 class Navigation extends React.Component {
-
     constructor(props) {
         super(props);
         this.state = {
             language: props.language,
         }
+    }
+
+    componentDidUpdate() {
+        console.log('updating')
     }
 
     render() {
