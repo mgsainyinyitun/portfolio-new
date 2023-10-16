@@ -11,6 +11,13 @@ export const TEXT = {
             MESSAGE:" သင့်ဆီမှာ ရှိတဲ့ skill တိုင်းက သင်အောင် မြင်ဖို့ လိုအပ်တဲ့ ကံကြမ္မာကို နှစ်ဆ ဖြစ်စေပါတယ် ။ ",
             AUTHER:'" Scott Adams "',
         },
+    },
+
+    JAPANESE:{
+        S_QUOTE:{
+            MESSAGE:" あなたが取得するすべてのスキルは、あなたの成功の確率を2倍にします。",
+            AUTHER:'" Scott Adams "',
+        },
     }
 }
 

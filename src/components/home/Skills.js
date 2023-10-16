@@ -6,8 +6,9 @@ import {connect} from 'react-redux';
 class Skills extends React.Component{
 
 render(){
-    const TXT = this.props.language === 'english'?TEXT.ENGLISH:TEXT.MYANMAR;
-
+    const TXT = 
+    this.props.language === 'english'?TEXT.ENGLISH:
+    this.props.language === 'myanmar'?TEXT.MYANMAR:TEXT.JAPANESE;
     return(
         <div className='projects-container'>
             <div className='underline mb-5'>
