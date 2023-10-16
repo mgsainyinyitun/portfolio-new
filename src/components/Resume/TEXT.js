@@ -1,5 +1,3 @@
-
-
 export const RESUME = {
 
     SUMMARY:{
@@ -30,7 +28,7 @@ export const RESUME = {
         DATA:[
             'Burmese / Shan',
             'English (Intermediate)',
-            'Japanese (Basic)',
+            'Japanese (N3) Passed',
         ]
     },
 
@@ -42,6 +40,7 @@ export const RESUME = {
             'MPT Internship Program',
             'Remote Internship from BCM Smart Citizen',
             'Web Developer Volunteer at Youth Society for Education (YSE)',
+            'Senior Programmer at Diawa Institue of Research (DIR-ACE)'
         ]
     },
 

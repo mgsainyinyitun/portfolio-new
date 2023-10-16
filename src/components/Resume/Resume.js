@@ -53,7 +53,7 @@ class Resume extends React.Component{
                             <div className='h-info'>
                                 <div>
                                     <h1>MG SAI NYI NYI TUN</h1>
-                                    <p>54 x 55 Aun San , Mandalay </p>
+                                    {/* <p>54 x 55 Aun San , Mandalay </p> */}
 
                                     <a href='mailto:mgsainyinyitun.tumdy@gmail.com'>
                                        <p> mgsainyinyitun.tumdy@gmail.com</p>

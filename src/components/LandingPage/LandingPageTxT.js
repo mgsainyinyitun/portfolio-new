@@ -1,6 +1,3 @@
-
-
-
 export const TEXT = {
 
     MYANMAR:{
@@ -18,6 +15,16 @@ export const TEXT = {
         SHORT:"THE ODYSSEY OF A DEVELOPER.",
         MESSAGE:{
             P1:"Welcome to my portfolio",
+            P2:"I am graduated from Technological University Mandalay with Electronics background. During my university study period, programming is my favourite subject. I am really interesting doing software development and also web development.",
+            P3:"In the future, I would like to become one of the best developer.",
+        },
+    },
+
+    JAPANESE:{
+        NAME:"サイニーニートウン",
+        SHORT:"THE ODYSSEY OF A DEVELOPER.",
+        MESSAGE:{
+            P1:"私のポートフォリオへようこそ。",
             P2:"I am graduated from Technological University Mandalay with Electronics background. During my university study period, programming is my favourite subject. I am really interesting doing software development and also web development.",
             P3:"In the future, I would like to become one of the best developer.",
         },

@@ -8,7 +8,8 @@
     align-items: center;
 }
 .about-me{
-    font-family: 'Courier New', Courier, monospace;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-family: 'Quicksand', sans-serif;
     font-weight: bold;
     font-size: 2.em;
     color: white;
@@ -46,8 +47,8 @@ img{
 
 .p-me{
     color: white;
-    font-family: 'Courier New', Courier, monospace;
-    
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-family: 'Quicksand', sans-serif;
     font-size: 1rem;
 }
 .p-break{

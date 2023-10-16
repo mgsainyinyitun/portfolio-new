@@ -1,50 +1,54 @@
 import React from 'react';
-import {web} from './constant';
-import {connect} from 'react-redux';
-import Item from 'antd/lib/list/Item';
+import { web } from './constant';
+import { connect } from 'react-redux';
 
-
-function extraInfo (items) {
-    console.log(items);
-    return(
+function extraInfo(items) {
+    return (
         <ul>
             {
                 items.map((item) => {
-                    return(
+                    return (
                         <li>
-                        {item}
+                            {item}
                         </li>
                     )
                 })
-            }  
+            }
         </ul>
     );
 
 }
 
- function ProjectsList (props){
+function ProjectsList(props) {
 
-    const TXT =  props.language === 'english'? web.ENGLISH:web.MYANMAR;
+    const TXT =
+        props.language === 'english' ? web.ENGLISH :
+            props.language === 'myanmar' ? web.MYANMAR : web.JAPANESE;
 
-    return(
+    return (
         <>
             <div className='proj-title'>
-                <h3>WEB DEVELOPMENT</h3>
+                <h3>
+                    {
+                        props.language === 'english' || props.language === 'myanmar'
+                            ? "WEB DEVELOPMENT" : "ＷＥＢ 開発"
+                    }
+                </h3>
             </div>
             <div className='proj-list-container'>
                 {
-                    TXT.map((project)=>{
-                        return(
+                    TXT.map((project) => {
+                        return (
                             <div className='project'>
                                 <h4>{project.title}</h4>
                                 <div className='project-content'>
-                                    <img src={project.image} className='proj-image'/>
+                                    <img src={project.image} className='proj-image' />
                                     <div className='proj-info'>
                                         <p>{project.description}</p>
                                         {
-                                            project.extra?
-                                            extraInfo(project.extra):null
-                              
+                                            project.extra ?
+                                                extraInfo(project.extra) : null
+
                                         }
                                         <div className='btn-holder'>
                                             <a href={project.try_link} className='proj-btn'>TRY NOW</a>
@@ -61,10 +65,10 @@ function extraInfo (items) {
     );
 }
 
-const mapStateToProps = state =>{
+const mapStateToProps = state => {
     return {
-        language:state.language
-    } 
+        language: state.language
+    }
 }
 
 export default connect(mapStateToProps)(ProjectsList);
