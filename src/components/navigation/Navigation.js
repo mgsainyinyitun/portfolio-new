@@ -14,11 +14,6 @@ class Navigation extends React.Component {
             language: props.language,
         }
     }
-
-    componentDidUpdate() {
-        console.log('updating')
-    }
-
     render() {
         const curR = window.location.pathname;
         var MENU_TXT = MENU.ENGLISH;

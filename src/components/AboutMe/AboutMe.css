@@ -9,10 +9,13 @@
 }
 .about-me{
     /* font-family: 'Courier New', Courier, monospace; */
-    font-family: 'Quicksand', sans-serif;
+    
     font-weight: bold;
     font-size: 2.em;
     color: white;
+}
+.quote{
+    font-family: 'Quicksand', sans-serif;
 }
 .upper-card{
     width: 90%;
@@ -21,6 +24,7 @@
     justify-content: space-between;
     padding: 1rem;
     background-color: rgba(255, 255, 255, 0.05);
+    font-family: 'Quicksand', sans-serif;
     margin: 1rem;
     border-radius: 1rem;
     box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);

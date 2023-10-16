@@ -1,6 +1,6 @@
 import React from 'react';
 import SkillsProgressBar from '../BasicComponents/ProgressBar/SkillsProgressBar';
-import {TEXT,OTHERS, PROGRAMMING,WEB_DEVELOPMENT} from './SkillConstants';
+import {TITLE,TEXT,OTHERS, PROGRAMMING,WEB_DEVELOPMENT} from './SkillConstants';
 import {connect} from 'react-redux';
 
 class Skills extends React.Component{
@@ -9,6 +9,12 @@ render(){
     const TXT = 
     this.props.language === 'english'?TEXT.ENGLISH:
     this.props.language === 'myanmar'?TEXT.MYANMAR:TEXT.JAPANESE;
+
+    const TLT = 
+    this.props.language === 'english'?TITLE.ENGLISH:
+    this.props.language === 'myanmar'?TITLE.MYANMAR:TITLE.JAPANESE;
+
+    
     return(
         <div className='projects-container'>
             <div className='underline mb-5'>
@@ -21,20 +27,20 @@ render(){
             </div>
 
             <div className='skills-container'>  
-                <h3 className='sub-title'>PROGRAMMING</h3>
+                <h3 className='sub-title'>{TLT.PROGRAMMING}</h3>
             </div>
 
             <SkillsProgressBar skills={PROGRAMMING}/>
 
 
             <div className='skills-container'>  
-                <h3 className='sub-title'>WEB DEVELOPMENT</h3>
+                <h3 className='sub-title'>{TLT.WEB_DEV}</h3>
             </div>
             <SkillsProgressBar skills={WEB_DEVELOPMENT}/>
 
 
             <div className='skills-container'>  
-                <h3 className='sub-title'>OTHERS</h3>
+                <h3 className='sub-title'>{TLT.OTHERS}</h3>
             </div>
             <SkillsProgressBar skills={OTHERS}/>
             

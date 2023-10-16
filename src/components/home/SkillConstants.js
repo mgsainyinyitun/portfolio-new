@@ -1,3 +1,21 @@
+export const TITLE  = {
+    ENGLISH:{
+        PROGRAMMING:'PROGRAMMING',
+        WEB_DEV:'WEB DEVELOPMENT',
+        OTHERS:'OTHERS',
+    },
+    MYANMAR:{
+        PROGRAMMING:'PROGRAMMING',
+        WEB_DEV:'WEB DEVELOPMENT',
+        OTHERS:'OTHERS',
+    },
+    JAPANESE:{
+        PROGRAMMING:'プログラミング',
+        WEB_DEV:'ウェブ開発',
+        OTHERS:'他の',
+    },
+}
+
 export const TEXT = {
     ENGLISH:{
         S_QUOTE:{
