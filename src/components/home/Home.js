@@ -21,7 +21,7 @@ class Home extends React.Component {
                 <div className='bottom-margin-d'></div>
                 <Skills />
                 <div className='bottom-margin-d'></div>
-                <Contact />
+                <Contact/>
             </>
         );
     }

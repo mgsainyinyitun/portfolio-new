@@ -18,7 +18,7 @@ render(){
     return(
         <div className='projects-container'>
             <div className='underline mb-5'>
-                <h2 className='heading-title' >SKILLS</h2>
+                <h2 className='heading-title' >{this.props.language==='japanese'?'スキル':'SKILLS'}</h2>
             </div>
 
             <div className='quote-holder'>

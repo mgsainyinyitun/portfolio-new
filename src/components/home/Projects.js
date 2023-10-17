@@ -8,6 +8,9 @@ import { connect } from 'react-redux';
 
 
 class Projects extends React.Component {
+    constructor(props) {
+        super(props);
+    }
     render() {
 
         const TXT = 
@@ -17,7 +20,7 @@ class Projects extends React.Component {
         return (
             <div className='projects-container'>
                 <div className='underline mb-5'>
-                    <h2 className='heading-title' >PROJECTS SELECTION</h2>
+                    <h2 className='heading-title' >{this.props.language==='japanese'?'プロジェクト':'PROJECTS'}</h2>
                 </div>
                 <div className='quote-holder'>
                     <p className='quote'>
