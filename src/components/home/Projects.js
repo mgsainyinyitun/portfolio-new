@@ -1,41 +1,40 @@
 import React from 'react';
 import './Home.css';
-
-import {TEXT} from './ProjectConstant';
+import { TEXT } from './ProjectConstant';
 import CardCarousel from '../BasicComponents/Card/CardCarousel';
-// import ProjectsCarousel from '../ProjectsCarousel/ProjectsCarousel';
-import {connect} from 'react-redux';
+import { connect } from 'react-redux';
 
+class Projects extends React.Component {
+    constructor(props) {
+        super(props);
+    }
+    render() {
+        const TXT =
+            this.props.language === 'english' ? TEXT.ENGLISH :
+                this.props.language === 'myanmar' ? TEXT.MYANMAR : TEXT.JAPANESE;
 
-class Projects extends React.Component{
-    render(){
-
-        const TXT = this.props.language === 'english'?TEXT.ENGLISH:TEXT.MYANMAR;
-
-        return(
-        <div className='projects-container'>
-            <div className='underline mb-5'>
-                <h2 className='heading-title' >PROJECTS SELECTION</h2>
+        return (
+            <div className='projects-container'>
+                <div className='underline mb-5'>
+                    <h2 className='heading-title' >{this.props.language === 'japanese' ? 'プロジェクト' : 'PROJECTS'}</h2>
+                </div>
+                <div className='quote-holder'>
+                    <p className='quote'>
+                        {TXT.P_QUOTE.MESSAGE}
+                    </p>
+                    <div className='quote-writer'><i>{TXT.P_QUOTE.AUTHER} </i></div>
+                </div>
+                <CardCarousel />
+                {/*<ProjectsCarousel/>*/}
             </div>
-            <div className='quote-holder'>
-                <p className='quote'>
-                   {TXT.P_QUOTE.MESSAGE}
-                </p>
-                <div className='quote-writer'><i>{TXT.P_QUOTE.AUTHER} </i></div>  
-            </div>
-            <CardCarousel/>
-            {/*<ProjectsCarousel/>*/}
-        </div>  
         )
     }
-
 }
 
-function mapStateToProps (state) {
+function mapStateToProps(state) {
     return {
-        language:state.language,
+        language: state.language,
     }
 }
-
 
 export default connect(mapStateToProps)(Projects);

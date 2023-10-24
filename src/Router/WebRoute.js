@@ -6,34 +6,29 @@ import Resume from "../components/Resume/Resume";
 import { ROUTE } from "./constant";
 
 export const WebRoute = [
-    <Route 
+    <Route
         key='1'
         path={ROUTE.HOME}
-        exact
-        component={(props) => <Home {...props}/>}
+        element={<Home />}
     />,
     <Route
         key='2'
         path={ROUTE.PROJECTS}
-        exact
-        component={(props)=> <Projects {...props} />}
+        element={<Projects />}
     />,
     <Route
         key='3'
         path={ROUTE.ABOUT_ME}
-        exact
-        component={(props)=> <AboutMe {...props}/>}
+        element={<AboutMe />}
     />,
     <Route
         key='4'
         path={ROUTE.RESUME}
-        exact
-        component={(props)=> <Resume/>}
+        element={<Resume />}
     />,
-    <Route
-        key='4'
-        path={ROUTE.BLOG}
-        exact
-        component={(props)=> <h1>BLOGS</h1>}
-    />,
+    // <Route
+    //     key='4'
+    //     path={ROUTE.BLOG}
+    //     element={(props)=> <h1>BLOGS</h1>}
+    // />,
 ];

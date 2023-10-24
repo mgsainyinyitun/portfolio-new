@@ -1,7 +1,7 @@
 import { CHANGE_LANGUAGE } from "../action/actionConstant";
 
 const initial_state = {
-    language:"english",
+    language:"japanese",
 }
 
 function rootReducer(state=initial_state,action){
@@ -9,7 +9,6 @@ function rootReducer(state=initial_state,action){
         case CHANGE_LANGUAGE:
              return {...state,language:action.payload}
         default: return state;
-
     }
 }
 export default rootReducer;

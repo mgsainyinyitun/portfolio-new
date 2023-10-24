@@ -8,10 +8,6 @@ import { Link } from 'react-router-dom';
 import {connect} from 'react-redux';
 import { TEXT } from './LandingPageTxT';
 
-
-
-
-
 class LandingPage extends React.Component {
     constructor(props){
         super(props);
@@ -20,13 +16,13 @@ class LandingPage extends React.Component {
         }
     }
 
-
     render() {
         var TXT = TEXT.MYANMAR;
-        if(this.props.language == 'english'){
+        if(this.props.language === 'english'){
             TXT = TEXT.ENGLISH;
+        }else if(this.props.language === 'japanese'){
+            TXT = TEXT.JAPANESE
         }
-
 
         return(
             <section className='main-home'>
