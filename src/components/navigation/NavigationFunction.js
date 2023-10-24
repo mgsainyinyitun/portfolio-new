@@ -61,7 +61,7 @@ function NavigationFunction(props) {
 
                     <li>
                         <select className='lang-select'
-                            defaultValue={'english'}
+                            defaultValue={props.language}
                             onChange={
                                 e => { props.changeLanguage(e.target.value) }
                             }

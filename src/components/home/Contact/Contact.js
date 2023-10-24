@@ -24,7 +24,6 @@ class Contact extends React.Component {
                                     <p>mgsainyinyitun.tumdy@gmail.com</p>
                                 </a>
                             </div>
-
                             <div className='info-container'>
                                 <FontAwesomeIcon icon={faPhone} className='aw-icon' />
                                 <a href="tel:+959 4400 9573">
@@ -32,14 +31,10 @@ class Contact extends React.Component {
                                 </a>
                             </div>
                         </div>
-
                         <ContactForm />
-
-
                     </div>
                 </div>
             </div>
-
         );
     }
 }

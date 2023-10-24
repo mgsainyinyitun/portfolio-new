@@ -1,26 +1,22 @@
 import React from 'react';
 import './Home.css';
-
 import { TEXT } from './ProjectConstant';
 import CardCarousel from '../BasicComponents/Card/CardCarousel';
-// import ProjectsCarousel from '../ProjectsCarousel/ProjectsCarousel';
 import { connect } from 'react-redux';
-
 
 class Projects extends React.Component {
     constructor(props) {
         super(props);
     }
     render() {
-
-        const TXT = 
+        const TXT =
             this.props.language === 'english' ? TEXT.ENGLISH :
-            this.props.language === 'myanmar' ? TEXT.MYANMAR : TEXT.JAPANESE;
+                this.props.language === 'myanmar' ? TEXT.MYANMAR : TEXT.JAPANESE;
 
         return (
             <div className='projects-container'>
                 <div className='underline mb-5'>
-                    <h2 className='heading-title' >{this.props.language==='japanese'?'プロジェクト':'PROJECTS'}</h2>
+                    <h2 className='heading-title' >{this.props.language === 'japanese' ? 'プロジェクト' : 'PROJECTS'}</h2>
                 </div>
                 <div className='quote-holder'>
                     <p className='quote'>
@@ -33,7 +29,6 @@ class Projects extends React.Component {
             </div>
         )
     }
-
 }
 
 function mapStateToProps(state) {
@@ -41,6 +36,5 @@ function mapStateToProps(state) {
         language: state.language,
     }
 }
-
 
 export default connect(mapStateToProps)(Projects);

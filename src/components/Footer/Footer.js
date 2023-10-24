@@ -12,7 +12,6 @@ class Footer extends React.Component {
             language: props.language,
         }
     }
-
     render() {
         return (
             <>
@@ -50,14 +49,13 @@ class Footer extends React.Component {
                         <p><span>&#169;</span>
                             {
                                 this.props.language === 'japanese' ?
-                                    'サイニーニートウン' : 'SAI NYI NYI TUN'
+                                    'サインニーニートウン' : 'SAI NYI NYI TUN'
                             }
                         </p>
                     </div>
                 </div>
             </>
         );
-
     }
 }
 const mapStateToProps = state => {

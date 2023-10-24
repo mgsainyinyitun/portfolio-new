@@ -20,7 +20,6 @@ function Main(props) {
             <DivideWave />
             <Routes>
                 {WebRoute}
-               
             </Routes>
             <MailIcon />
             <Footer />

@@ -66,14 +66,14 @@ class Navigation extends React.Component {
 
                         <li>
                             <select className='lang-select'
-                                defaultValue={'english'}
+                                defaultValue={this.props.language}
                                 onChange={
                                     e => this.props.changeLanguage(e.target.value)
                                 }
                             >
+                                <option value="japanese">Japanese</option>
                                 <option value="english">English</option>
                                 <option value="myanmar">Myanmar</option>
-                                <option value="japanese">Japanese</option>
                             </select>
                         </li>
 

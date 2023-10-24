@@ -21,7 +21,7 @@ export const TEXT = {
     },
 
     JAPANESE: {
-        NAME: "サイニーニートウン",
+        NAME: "サインニーニートウン",
         SHORT: "開発者のオデッセイ。",
         MESSAGE: {
             P1: "私のポートフォリオへようこそ。",
