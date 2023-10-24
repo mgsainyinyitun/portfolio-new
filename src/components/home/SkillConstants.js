@@ -1,3 +1,21 @@
+export const TITLE  = {
+    ENGLISH:{
+        PROGRAMMING:'PROGRAMMING',
+        WEB_DEV:'WEB DEVELOPMENT',
+        OTHERS:'OTHERS',
+    },
+    MYANMAR:{
+        PROGRAMMING:'PROGRAMMING',
+        WEB_DEV:'WEB DEVELOPMENT',
+        OTHERS:'OTHERS',
+    },
+    JAPANESE:{
+        PROGRAMMING:'プログラミング',
+        WEB_DEV:'ウェブ開発',
+        OTHERS:'他の',
+    },
+}
+
 export const TEXT = {
     ENGLISH:{
         S_QUOTE:{
@@ -9,6 +27,13 @@ export const TEXT = {
     MYANMAR:{
         S_QUOTE:{
             MESSAGE:" သင့်ဆီမှာ ရှိတဲ့ skill တိုင်းက သင်အောင် မြင်ဖို့ လိုအပ်တဲ့ ကံကြမ္မာကို နှစ်ဆ ဖြစ်စေပါတယ် ။ ",
+            AUTHER:'" Scott Adams "',
+        },
+    },
+
+    JAPANESE:{
+        S_QUOTE:{
+            MESSAGE:" あなたが取得するすべてのスキルは、あなたの成功の確率を2倍にします。",
             AUTHER:'" Scott Adams "',
         },
     }
