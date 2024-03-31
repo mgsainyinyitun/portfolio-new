@@ -66,9 +66,9 @@ function NavigationFunction(props) {
                                 e => { props.changeLanguage(e.target.value) }
                             }
                         >
+                            <option value="japanese">Japanese</option>
                             <option value="english">English</option>
                             <option value="myanmar">Myanmar</option>
-                            <option value="japanese">Japanese</option>
                         </select>
                     </li>
                 </ul>
@@ -76,9 +76,5 @@ function NavigationFunction(props) {
         </header>
     );
 }
-const mapStateToProps = state => {
-    return {
-        language: state.language
-    }
-}
-export default connect(mapStateToProps)(NavigationFunction)
+
+export default NavigationFunction;

@@ -2,8 +2,7 @@ export const RESUME = {
     ENGLISH: {
         SUMMARY: {
             DATA:
-                'After graduated  from Technological University Mandalay in 2020, I have acquired technical knowledge and skills from my course. Currently, I have some experience as a part time trainer at TechnoNet Engineering Training Center, Mandalay. I have trained programming subjects such as Java, Python and other technical subjects such as A+, PIC.' +
-                'I am also a web developer volunteer at Youth Society for Education (YSE). I have some experience in web technologies such as HTML5, CSS, JavaScript, PHP, Bootstrap, Reactjs, from volunteering as web developer in YSE. And willing to study every new technology.'
+                'After graduated from Technological University Mandalay in 2020, I have acquired technical knowledge and skills from my course. Currently, I have 2 years development experience from DIR-ACE company as a Senior Programmer. Gaining experience from coding development to testing. I am also a web developer volunteer at Youth Society for Education (YSE). I have some experience in web technologies such as HTML5, CSS, JavaScript, PHP, Bootstrap, ReactJs, from volunteering as web designer in YSE. And always willing to study every new technology.'
         },
 
         EDUCATION: {
@@ -15,11 +14,13 @@ export const RESUME = {
 
         SKILLS: {
             DATA: [
-                'Packages: MS Office, Photoshop, Adobe Premiere Pro, VideoScribe',
+                'Packages: MS Office, Photoshop, Figma, Draw.io',
                 'Operating Systems: Windows and Linux.',
                 'Computer System Engineering A+,',
                 'Computer Network Engineering N+,',
-                'Programming Languages: Java, Python, C++, HTML, CSS, PHP, Bootstrap, JavaScript, MySQL, React.js, Node.js,  MATLAB',
+                'Programming Languages: Java, Python, C++, HTML, CSS, PHP, JavaScript, MATLAB',
+                'Framework: Bootstrap,React.js,Node.js , Spring MVC, Spring Boot',
+                'Databases: MySQL ,Oracle, PostgreSQL, Firebase',
                 'Others: Heroku, Netlify, PythonAnywhere, Google Firebase, Git, GitHub, Django'
             ]
         },
@@ -29,26 +30,22 @@ export const RESUME = {
             DATA: [
                 'Burmese / Shan',
                 'English (Intermediate)',
-                'Japanese (N3) Passed',
+                'Japanese (JLPT N3) Passed',
             ]
         },
 
         EXPERIENCE: {
             DATA: [
-                'A+ Trainer at IT Queen (Mandalay)',
-                'A+ Trainer at Quantum Computer Center (Sagaing)',
-                'A+, Java, Python, PIC Trainer at TechnoNet (Mandalay)',
-                'MPT Internship Program',
-                'Remote Internship from BCM Smart Citizen',
+                'MPT Internship Program (University Program)' ,
+                'A+, Java, Python, Web development Trainer at TechnoNet (Mandalay)',
                 'Web Developer Volunteer at Youth Society for Education (YSE)',
+                'Web Developmer at LBU',
                 'Senior Programmer at Diawa Institue of Research (DIR-ACE)'
             ]
         },
 
         VOLUNTEER: {
             DATA: [
-                'Buddhist Services Association (BSA) , TU(mdy),',
-                'Better Citizen Movement for Digital Literacy with Smart Citizen',
                 'Web Developer at Youth Society for Education (YSE)',
             ]
         },
