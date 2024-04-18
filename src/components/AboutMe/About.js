@@ -79,7 +79,7 @@ export const paragraphs = {
         },
         {
             text:
-                "私のプログラミングのキャリアは、大学を卒業後、マンダレーの 「TechnoNet」 エンジニアリング トレーニング センターでトレーナーとして働いたときに始まりました。トレーナーとしての私の責任は　JAVA、PYTHON などのプログラミング科目、HTML,CSS, JavaScript　なとのウェブ開発科目についての　コースを教えることです。また「YOUTH SOCIETY AND EDUCATION」 に　バイトウェブデザイナー　ボランティア　としても　働くしています。ウェブデザイナーのボランティアとしての私の責任は、主にHTML5、CSS、JAVASCRIPT、BOOTSTRAP、REACT JS、NOTEJS、と　FIREBASE の　関係の技術を使って　YSE メインウェブサイトの保守、アップグレード、変更すること　と　社内組織のためのウェブシステムの開発することを　しています。",
+                "私のプログラミングのキャリアは、大学を卒業後、マンダレーの 「TechnoNet」 エンジニアリング トレーニング センターでトレーナーとして働いたときに始まりました。トレーナーとしての私の責任は　JAVA、PYTHON などのプログラミング科目、HTML,CSS, JavaScript　なとのウェブ開発科目についての　コースを教えることです。また「YOUTH SOCIETY AND EDUCATION」 に　パートウェブ開発者　フリーランサー　としても　働くしています。開発者としての私の責任は、主にHTML5、CSS、JAVASCRIPT、BOOTSTRAP、REACT JS、NOTEJS、と　FIREBASE の　関係の技術を使って　YSE メインウェブサイトの保守、アップグレード、変更すること　と　社内組織のためのウェブシステムの開発することを　しています。",
             graphic: [G4],
         },
         {
@@ -87,7 +87,7 @@ export const paragraphs = {
             graphic: [G3, G5],
         },
         {
-            text: 'その後、「LONDON　BUSINESS　UNIVERSITY」私立大学　にウェブ開発者として働きました。いろいろな開発経験 を取得して、日本向けのIT会社に入社しました。「Daiwa Institution of Research (DIR-ACE)」という会社です。単体テスト、結合テスト、コーディング開発、基本設計書、詳細設計 についてを経験しました。主な言語は JAVA ですけど、VBA、C言語 も開発することがあります。現在、REACT JS、APPLICATION PROGRAMMING INTERFACE(API)、FLUTTER、ウェブセキュリティに重点を置いています。',
+            text: 'その後、「LONDON　BUSINESS　UNIVERSITY」私立大学　にウェブ開発者として働きました。いろいろな開発経験 を取得して、日本のオフショア IT会社に入社しました。「Daiwa Institution of Research (DIR-ACE)」という会社です。単体テスト、結合テスト、コーディング開発、基本設計書、詳細設計 についてを経験しました。主な言語は JAVA ですけど、VBA、VBS も開発することがあります。現在、REACT JS、APPLICATION PROGRAMMING INTERFACE(API)、FLUTTER、ウェブセキュリティに重点を置いています。',
             graphic: []
         }
     ],

@@ -2,7 +2,7 @@ export const RESUME = {
     ENGLISH: {
         SUMMARY: {
             DATA:
-                'After graduated from Technological University Mandalay in 2020, I have acquired technical knowledge and skills from my course. Currently, I have 2 years development experience from DIR-ACE company as a Senior Programmer. Gaining experience from coding development to testing. I am also a web developer volunteer at Youth Society for Education (YSE). I have some experience in web technologies such as HTML5, CSS, JavaScript, PHP, Bootstrap, ReactJs, from volunteering as web designer in YSE. And always willing to study every new technology.'
+                'After graduated from Technological University Mandalay in 2020, I have acquired technical knowledge and skills from my course. Currently, I have 2 years development experience from DIR-ACE company as a Senior Programmer. Gaining experience from coding development to testing. I am also a web developer part-time freelancer at Youth Society for Education (YSE). I have experience in web technologies such as HTML5, CSS, JavaScript, PHP, Bootstrap, ReactJs, from volunteering as web developer. And always willing to study every new technology.'
         },
 
         EDUCATION: {
@@ -38,7 +38,7 @@ export const RESUME = {
             DATA: [
                 'MPT Internship Program (University Program)' ,
                 'A+, Java, Python, Web development Trainer at TechnoNet (Mandalay)',
-                'Web Developer Volunteer at Youth Society for Education (YSE)',
+                'Web Developer Freelancer at Youth Society for Education (YSE)',
                 'Web Developmer at LBU',
                 'Senior Programmer at Diawa Institue of Research (DIR-ACE)'
             ]
@@ -54,7 +54,8 @@ export const RESUME = {
             DATA: [
                 'JAVA SE Course from JDC',
                 'Programming Foundation with JavaScript, HTML and CSS (Coursera Online)',
-                'Java Programming: Solving Problems with Software (Coursera Online)'
+                'Java Programming: Solving Problems with Software (Coursera Online)',
+                'JLPT N3 Certificate'
             ]
         },
 
