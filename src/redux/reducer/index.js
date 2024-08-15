@@ -1,7 +1,7 @@
 import { CHANGE_LANGUAGE } from "../action/actionConstant";
 
 const initial_state = {
-    language:"japanese",
+    language:"english",
 }
 
 function rootReducer(state=initial_state,action){

@@ -32,10 +32,10 @@ class Resume extends React.Component {
                 title: 'Experiences',
                 data: this.TEXT.EXPERIENCE.DATA
             },
-            {
-                title: 'Volunteering Activities',
-                data: this.TEXT.VOLUNTEER.DATA
-            },
+            // {
+            //     title: 'Volunteering Activities',
+            //     data: this.TEXT.VOLUNTEER.DATA
+            // },
             {
                 title: 'Certificates',
                 data: this.TEXT.CERTIFICATE.DATA

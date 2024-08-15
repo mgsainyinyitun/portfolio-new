@@ -88,16 +88,18 @@ export const WEB_DEVELOPMENT = [
 
 ];
 
-
-
 export const WEB_FRAMEWORK = [
     {
         skill:'REACT JS',
         percent:84,
     },
     {
-        skill:'JavaEE',
+        skill:'Spring MVC',
         percent:60,
+    },
+    {
+        skill:'Spring Boot',
+        percent:70,
     },
     {
         skill:'Laravel',
@@ -122,7 +124,7 @@ export const WEB_FRAMEWORK = [
 export const OTHERS = [
     {
         skill:'FLUTTER',
-        percent:40,
+        percent:42,
     },
     {
         skill:'JAVA FX',
@@ -133,9 +135,12 @@ export const OTHERS = [
         percent:90
     },
     {
-        skill:'WIX',
-        percent:80,
+        skill:'API',
+        percent:70,
+    },
+    {
+        skill:'OAuth2.0',
+        percent:72,
     }
-
 
 ];
