@@ -4,11 +4,19 @@ import HelpDesk from '../../img/projects/helpdesk.gif';
 import snake from '../../img/projects/snake_game.gif';
 import tictoe from '../../img/projects/tic-tak-tok.gif';
 import Web from '../../img/projects/basicweb.gif';
+import three3d from '../../img/projects/three3d.gif';
 
 export const web =
 {
     ENGLISH:
         [
+            {
+                image: three3d,
+                title: '3D Showcase Portfolio',
+                description: 'This is my 3D portfolio, inspire by other developer and I twised some element of my own. After learning three.js and react-three-fiber, I created this project. Combine with tailwindcss, I make this web responsive as possible as I can. You can click Try now button to explore this app or if your are curious how I wrote it, you can click source code to view my source code of this project on GitHub.',
+                try_link: 'https://threejs-sts.vercel.app/',
+                source_link: 'https://github.com/mgsainyinyitun/threejs-sts'
+            },
             {
                 image: Chat,
                 title: 'CHAT WITH FRIENDS',
@@ -17,7 +25,7 @@ export const web =
                     'and chat with a group of people in group. This project use firebase as an authentication, firestore as ' +
                     'backend database and deploy on google firebase hosting. And Reactjs is used as a frontend framework.' +
                     'You can click Try now button to explore this app or if your are curious how I wrote it, you can click source code' +
-                    'to view my source code of this project on GitHub.',
+                    ' to view my source code of this project on GitHub.',
                 try_link: 'https://web-messenger-sainyi-068390.web.app/',
                 source_link: 'https://github.com/mgsainyinyitun/chat'
             },
@@ -27,7 +35,7 @@ export const web =
                 description: 'This help desk system  is created with python django combine with web technology ' +
                     'such as html, css, javascript and other libraries such as google chart api, bootstrap framework, ' +
                     'and many python libraries.And deploy on pythonanywhere.com. You can ' +
-                    'click Try now button to explore this app or if your are curious how I wrote it, you can click source code' +
+                    'click Try now button to explore this app or if your are curious how I wrote it, you can click source code ' +
                     'to view my source code of this project on GitHub.',
                 try_link: 'http://sainyinyitun.pythonanywhere.com/',
                 source_link: 'https://github.com/mgsainyinyitun/HelpDesk',
@@ -171,6 +179,5 @@ export const web =
                 source_link: 'https://github.com/mgsainyinyitun/basicwebdesign'
             },
         ],
-
 
 }

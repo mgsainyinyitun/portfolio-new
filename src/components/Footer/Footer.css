@@ -34,7 +34,8 @@
 
 .cpy-sign{
     color: white;
-    font-family: 'Courier New', Courier, monospace;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-family: 'Quicksand', sans-serif;
     font-size: 1rem;
     margin-top: 30px;
     border-top: 1px white solid;

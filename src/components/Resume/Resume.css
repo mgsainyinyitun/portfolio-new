@@ -16,7 +16,8 @@
 
 .header{
     color: white;
-    font-family: 'Courier New', Courier, monospace;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-family: 'Quicksand', sans-serif;
     display: flex;
     flex-direction: column-reverse;
     justify-content: center;
@@ -68,7 +69,8 @@
     }
     .header{
         color: white;
-        font-family: 'Courier New', Courier, monospace;
+        /* font-family: 'Courier New', Courier, monospace; */
+        font-family: 'Quicksand', sans-serif;
         display: flex;
         flex-direction: row;
         justify-content: space-between;

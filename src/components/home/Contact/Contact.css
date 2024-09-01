@@ -33,7 +33,8 @@
 
 }
 .form-container .info-container{
-    font-family: 'Courier New', Courier, monospace;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-family: 'Quicksand', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -74,7 +75,8 @@
     padding: 1rem;
     margin-bottom: 0.5rem;  
     color: white;
-    font-family: 'Courier New', Courier, monospace;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-family: 'Quicksand', sans-serif;
 }
 
 .glass-form input:focus {
@@ -101,29 +103,34 @@
     padding: 1rem;
     margin-bottom: 0.5rem;  
     color: white;
-    font-family: 'Courier New', Courier, monospace;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-family: 'Quicksand', sans-serif;
 }
 
 /* Text input place holder*/
 
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
     color: white;
-    font-family: 'Courier New', Courier, monospace;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-family: 'Quicksand', sans-serif;
     
   }
   ::-moz-placeholder { /* Firefox 19+ */
     color: white;
-    font-family: 'Courier New', Courier, monospace;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-family: 'Quicksand', sans-serif;
     
   }
   :-ms-input-placeholder { /* IE 10+ */
     color: white;
-    font-family: 'Courier New', Courier, monospace;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-family: 'Quicksand', sans-serif;
    
   }
   :-moz-placeholder { /* Firefox 18- */
     color: white;
-    font-family: 'Courier New', Courier, monospace;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-family: 'Quicksand', sans-serif;
   }
 
 
@@ -133,7 +140,8 @@
       border-radius: 15px;
       background-color:rgba(0, 0, 255, 0.2);
       color: white;
-      font-family: 'Courier New', Courier, monospace; 
+      /* font-family: 'Courier New', Courier, monospace;  */
+      font-family: 'Quicksand', sans-serif;
       padding-top: .2rem;
       padding-bottom: .2rem;
       padding-right: .5rem;

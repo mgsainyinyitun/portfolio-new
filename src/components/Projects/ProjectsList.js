@@ -51,8 +51,8 @@ function ProjectsList(props) {
 
                                         }
                                         <div className='btn-holder'>
-                                            <a href={project.try_link} className='proj-btn'>TRY NOW</a>
-                                            <a href={project.source_link} className='proj-btn'>SOURCE CODE</a>
+                                            <a target='_blank' href={project.try_link} className='proj-btn'>TRY NOW</a>
+                                            <a target='_blank' href={project.source_link} className='proj-btn'>SOURCE CODE</a>
                                         </div>
                                     </div>
                                 </div>

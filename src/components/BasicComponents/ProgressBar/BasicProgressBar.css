@@ -17,7 +17,8 @@
 }
 .percent{
     color: white;
-    font-family: 'Courier New', Courier, monospace;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-family: 'Quicksand', sans-serif;
 }
 .p-h{
     padding-top: 2px;

@@ -7,7 +7,8 @@
 }
 .heading-title{
     color: white;
-    font-family: 'Courier New', Courier, monospace;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-family: 'Quicksand', sans-serif;
     border-bottom: 2px white solid;
     margin: 0;
     padding: 0;
@@ -35,7 +36,8 @@
     background-color: #06111C;
     padding: 3px;
     color: #BB2020;
-    font-family: 'Courier New', Courier, monospace;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-family: 'Quicksand', sans-serif;
     font-size: 1.3rem;
 }
 
@@ -50,7 +52,8 @@
     align-items: center;
 }
 .quote{
-    font-family: 'Courier New', Courier, monospace;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-family: 'Quicksand', sans-serif;
     color: white;
     width: 90%;
     text-align: justify;
@@ -73,7 +76,8 @@
 
 @media screen and (min-width: 660px) {
     .quote{
-        font-family: 'Courier New', Courier, monospace;
+        /* font-family: 'Courier New', Courier, monospace; */
+        font-family: 'Quicksand', sans-serif;
         color: white;
         width: 40%;
         text-align: left;

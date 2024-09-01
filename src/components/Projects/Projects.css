@@ -12,12 +12,14 @@
     border-radius: 0px 0px 20px 20px;
 }
 h1{
-    font-family: 'Courier New', Courier, monospace;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-family: 'Quicksand', sans-serif;
     color: white;
     font-weight: bold;
 }
 .title-bar p{
-    font-family: 'Courier New', Courier, monospace;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-family: 'Quicksand', sans-serif;
     color: white;
 }
 .p-cartoon{
@@ -76,8 +78,8 @@ h1{
 }
 .proj-title h3 {
     color: white;
-    font-family: 'Courier New', Courier, monospace;
-
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-family: 'Quicksand', sans-serif;
 }
 .proj-list-container{
     display: flex;
@@ -88,7 +90,8 @@ h1{
 .project{
     background-image: radial-gradient( circle farthest-corner at 83.7% 4.3%,  rgba(4, 0, 231, 0.2) 0%, rgba(0, 0, 0, 0.2) 90% );
     color: white;
-    font-family: 'Courier New', Courier, monospace;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-family: 'Quicksand', sans-serif;
     min-height: 150px;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -97,11 +100,13 @@ h1{
 }
 .project-content{
     color: white;
-    font-family: 'Courier New', Courier, monospace;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-family: 'Quicksand', sans-serif;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: justify;
 }
 
 /* Project Image */
