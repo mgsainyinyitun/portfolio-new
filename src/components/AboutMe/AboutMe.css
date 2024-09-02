@@ -54,6 +54,7 @@ img{
     /* font-family: 'Courier New', Courier, monospace; */
     font-family: 'Quicksand', sans-serif;
     font-size: 1rem;
+    font-size: larger;
 }
 .p-break{
     color: rgba(255, 255, 255, 0.01);

@@ -40,7 +40,7 @@ export default function TitleBar(props) {
             <div className='title-bar'>
                 <div>
                     <h1>{HEADER}</h1>
-                    <p>{TXT}</p>
+                    <p className='pt-3'>{TXT}</p>
                 </div>
                 <img src={pCartoon} className='p-cartoon' />
             </div>

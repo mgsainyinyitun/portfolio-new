@@ -82,6 +82,13 @@ export const web =
     MYANMAR:
         [
             {
+                image: three3d,
+                title: '3D Showcase Portfolio',
+                description: 'ဒီ 3D Showcase Portfolio က အခြား developer တွေရေးထားတာကို အတုယူကာ ကျွန်ုပ်၏ကိုယ်ပိုင် အစိတ်အပိုင်း အချို့ကို ထည့်ပီး ရေးထားတာဖြစ်ပါတယ်။ three.js နှင့် react-three-fiber ကို လေ့လာပြီးနောက်ဤပရောဂျက်ကို ဖန်တီးခဲ့ပါသည်။ css framework အနေနဲ့ tailwindcss ကိုသုံးထားပီး အတတ်နိုင်ဆုံး responsive design ဖြစ်အောင် ရေးထားပါတယ်။ Try now ဆိုတဲ့  button ကို နှိပ်ပြီးတော့ website ကိုလေ့လာ ကြည့်လို့ ရပါတယ်။  ဒီ Web App ကို ဘယ်လို ရေးထားတယ်ဆိုတဲ့ source code ကို ကြည့်ချင်တယ် ဆိုရင်  source code ကို နှိပ်ပြီးတော့ Github ပေါ်တင်ထားတဲ့ code ကို လေ့လာကြည့်လို့ ရပါတယ်။',
+                try_link: 'https://threejs-sts.vercel.app/',
+                source_link: 'https://github.com/mgsainyinyitun/threejs-sts'
+            },
+            {
                 image: Chat,
                 title: 'CHAT WITH FRIENDS',
                 description: 'ဒီ ChatWithFriends,  web application က chattiing application တစ်ခုဖြစ်ပြီးတော့  user ' +
@@ -138,6 +145,13 @@ export const web =
 
     JAPANESE:
         [
+            {
+                image: three3d,
+                title: '3D Showcase Portfolio',
+                description: 'これは私の 3D ポートフォリオです。他の開発者からインスピレーションを受け、独自の要素をいくつか取り入れました。three.js と react-three-fiber を学習した後、このプロジェクトを作成しました。tailwindcss と組み合わせて、この Web を可能な限りレスポンシブにしました。　TRY NOW  ボタンを　クリックして　この　WEB　アプリケーション　を探索出来ます。 または　開発方法を　知りたいなら　SOURCE CODE　ボタンを　クリックして　このプロジェクトの　ソースコードを　GITHUB　に　見ることが　できます。',
+                try_link: 'https://threejs-sts.vercel.app/',
+                source_link: 'https://github.com/mgsainyinyitun/threejs-sts'
+            },
             {
                 image: Chat,
                 title: 'CHAT WITH FRIENDS',

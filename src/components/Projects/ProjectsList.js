@@ -48,11 +48,10 @@ function ProjectsList(props) {
                                         {
                                             project.extra ?
                                                 extraInfo(project.extra) : null
-
                                         }
                                         <div className='btn-holder'>
-                                            <a target='_blank' href={project.try_link} className='proj-btn'>TRY NOW</a>
-                                            <a target='_blank' href={project.source_link} className='proj-btn'>SOURCE CODE</a>
+                                            <a target='_blank'  rel='noopener noreferrer' href={project.try_link} className='proj-btn'>TRY NOW</a>
+                                            <a target='_blank'  rel='noopener noreferrer' href={project.source_link} className='proj-btn'>SOURCE CODE</a>
                                         </div>
                                     </div>
                                 </div>
