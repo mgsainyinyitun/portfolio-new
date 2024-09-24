@@ -59,6 +59,15 @@ function NavigationFunction(props) {
                         </li>
                     </Link>
 
+                    <a href='https://medium.com/@mgsainyinyitun.tumdy' target='_blank'>
+                        <li className='blog'>
+                            <span className={curR === ROUTE.BLOG ? "active" : null}>
+                                BLOG
+                            </span>
+                        </li>
+                    </a>
+
+
                     <li>
                         <select className='lang-select'
                             defaultValue={props.language}

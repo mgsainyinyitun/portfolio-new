@@ -65,6 +65,13 @@ class Navigation extends React.Component {
                         </Link>
 
                         <li>
+                            <span className={curR===ROUTE.BLOG?"active":null}>
+                                BLOGS
+                            </span>
+                        </li>
+        
+
+                        <li>
                             <select className='lang-select'
                                 defaultValue={this.props.language}
                                 onChange={
@@ -76,17 +83,6 @@ class Navigation extends React.Component {
                                 <option value="myanmar">Myanmar</option>
                             </select>
                         </li>
-
-                        {/* 
-                        <Link to={ROUTE.BLOG}>
-                        <li>
-                            <span className={curR===ROUTE.BLOG?"active":null}>
-                                BLOGS
-                            </span>
-                        </li>
-                        </Link>
-                        */
-                        }
                     </ul>
                 </nav>
             </header>

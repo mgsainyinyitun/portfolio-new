@@ -1,15 +1,23 @@
 /*Global Configuration*/
-html, body {
+html,
+body {
     width: 100%;
     height: 100%;
     margin: 0;
     padding: 0;
 }
-#root{
-    background-image: radial-gradient( circle farthest-corner at 83.7% 4.3%,  #121317 0%, rgba(15,51,92,1) 90% );
+
+#root {
+    background-image: radial-gradient(circle farthest-corner at 83.7% 4.3%, #121317 0%, rgba(15, 51, 92, 1) 90%);
     align-items: center;
     z-index: 1;
 }
+
+.blog {
+    font-weight: bold;
+}
+
+
 
 li {
     list-style: none;
@@ -20,7 +28,8 @@ li {
     position: relative;
     top: 0;
     width: 100%;
-  }
+}
+
 /*Header*/
 header {
     width: 100%;
@@ -30,11 +39,12 @@ header {
     /*font-family: "Raleway", sans-serif;*/
     /* font-family:'Courier New', Courier, monospace; */
     font-family: 'Quicksand', sans-serif;
-    font-weight:540;
+    font-weight: 540;
     font-size: 1.1em;
     letter-spacing: 00.125em;
     background-color: #06111C;
 }
+
 .brand {
     width: auto;
     height: 100%;
@@ -43,23 +53,24 @@ header {
     margin: 0 0 0 5%;
 }
 
-.red{
-    color:#BB2020;
+.red {
+    color: #BB2020;
     text-decoration: none;
 }
 
 
 
-.home-icon{
+.home-icon {
     font-size: 2rem;
     margin-top: 20px;
     margin-left: 50px;
-  }
-.home-icon:hover{
+}
+
+.home-icon:hover {
     font-size: 2rem;
     margin-top: 20px;
     margin-left: 50px;
-    color: rgba(15,51,92,1);
+    color: rgba(15, 51, 92, 1);
 }
 
 /*Navigation*/
@@ -68,38 +79,48 @@ header {
     height: 100%;
     float: right;
 }
+
 .menu ul {
     width: 100%;
     height: inherit;
     margin: 0;
     padding: 0;
-    display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
-    display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
-    display: -ms-flexbox;      /* TWEENER - IE 10 */
-    display: -webkit-flex;     /* NEW - Chrome */
-    display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+    display: -webkit-box;
+    /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box;
+    /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox;
+    /* TWEENER - IE 10 */
+    display: -webkit-flex;
+    /* NEW - Chrome */
+    display: flex;
+    /* NEW, Spec - Opera 12.1, Firefox 20+ */
 }
+
 .menu ul a {
     width: 20%;
     height: inherit;
-    color: rgba(15,51,92,1);
+    color: rgba(15, 51, 92, 1);
     display: inline-block;
     text-decoration: none;
 }
+
 .menu ul a:hover {
-    background-color: rgba(15,51,92,1);
-    background-image: radial-gradient( circle farthest-corner at 83.7% 4.3%,  #0f0061 0%, rgba(15,51,92,1) 90% );
+    background-color: rgba(15, 51, 92, 1);
+    background-image: radial-gradient(circle farthest-corner at 83.7% 4.3%, #0f0061 0%, rgba(15, 51, 92, 1) 90%);
     color: white;
-    border-radius:35px;
+    border-radius: 35px;
 }
+
 #menuToggle {
     display: none;
 }
+
 .menu-icon {
     display: none;
 }
 
-.active{
+.active {
     font-weight: bold;
     border-bottom: 3px solid #BB2020;
     padding-bottom: 3px;
@@ -107,11 +128,11 @@ header {
 }
 
 /* for language select */
-.lang-select{
+.lang-select {
     padding: .2rem;
-    border-radius:10px;
+    border-radius: 10px;
     border-color: darkblue;
-    background-color:darkblue;
+    background-color: darkblue;
     color: white;
 }
 
@@ -122,24 +143,27 @@ header {
         width: 100%;
         height: auto;
     }
+
     .menu ul {
         display: block;
         max-height: 0;
-    	overflow: hidden;
-        background-color:#121317;
-    	-webkit-transition: max-height 0.3s;
-    	-moz-transition: max-height 0.3s;
+        overflow: hidden;
+        background-color: #121317;
+        -webkit-transition: max-height 0.3s;
+        -moz-transition: max-height 0.3s;
         -ms-transition: max-height 0.3s;
         -o-transition: max-height 0.3s;
-    	transition: max-height 0.3s;
+        transition: max-height 0.3s;
     }
+
     .menu ul a {
         text-align: left;
         width: 100%;
         height: 50px;
-        background-color:#121317;
+        background-color: #121317;
         padding: 10px 0px 10px 5%;
     }
+
     .menu-icon {
         width: 100px;
         height: inherit;
@@ -149,19 +173,20 @@ header {
         right: 0;
         line-height: 60px;
     }
-    #menuToggle:checked ~ ul {
+
+    #menuToggle:checked~ul {
         max-height: 350px;
         /*Para fazer com que o menu saia da esquerda ou direita, você deve trocar max-height por max-width*/
     }
+
     .menu-icon i {
         font-size: 1.7em;
     }
 
     .menu ul a:hover {
-        background-color: rgba(15,51,92,1);
+        background-color: rgba(15, 51, 92, 1);
         color: white;
     }
 
 
 }
-

@@ -3,6 +3,32 @@
     flex-direction: column;
     align-items: center;
 }
+.pjt-title{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px white dotted;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.pjt-tech{
+    font-size: medium;
+    font-weight: lighter;
+    margin: 0;
+    padding: 0;
+    margin-left: 0.5rem;
+}
+.project h4{
+    font-weight: bold;
+    /* padding-bottom: 10px; */
+    color: white;
+    letter-spacing: 0.125em;
+    margin: 0;
+    padding: 0;
+}
+
+
 .title-bar{
     width: 95%;
     display: flex;
@@ -115,7 +141,6 @@ h1{
     height: auto;
     margin-bottom: 10px;
     border-radius: 10px;
-    
     transition:transform 0.25s ease;
 }
 
@@ -124,16 +149,6 @@ h1{
     position: relative;
     -webkit-transform:scale(2.5); /* or some other value */
     transform:scale(2.5);
-}
-
-.project h4{
-    width: 100%;
-    font-weight: bold;
-    padding-bottom: 10px;
-    color: white;
-    border-bottom: 1px white dotted;
-    margin-bottom: 25px;
-    letter-spacing: 0.125em;
 }
 
 
