@@ -6,11 +6,20 @@ import tictoe from '../../img/projects/tic-tak-tok.gif';
 import Web from '../../img/projects/basicweb.gif';
 import three3d from '../../img/projects/three3d.gif';
 import bookscribe from '../../img/projects/bookscribe.gif';
+import bankingmgmt from '../../img/projects/bankmgmt.png';
 
 export const web =
 {
     ENGLISH:
         [
+            {
+                image: bankingmgmt,
+                title: 'Banking Management System',
+                tech: '(Next.js, Prisma, MySQL)',
+                description: 'Banking Management System is a comprehensive web application designed to manage various types of bank accounts, transactions, and user profiles. It allows seamless account creation, transaction tracking, and customer accounts managements, customer transaction managements. The system uses Next.js for the frontend, Prisma as the ORM, and MySQL as the database.',
+                try_link: undefined,
+                source_link: 'https://github.com/mgsainyinyitun/banking-mgmt-system'
+            },
             {
                 image: bookscribe,
                 title: 'BookScribe',
@@ -93,6 +102,14 @@ export const web =
     MYANMAR:
         [
             {
+                image: bankingmgmt,
+                title: 'Banking Management System',
+                tech: '(Next.js, Prisma, MySQL)',
+                description: 'Banking Management System သည် ဘဏ်အကောင့်အမျိုးမျိုး၊ ငွေလွှဲမှုများနှင့် User ပရိုဖိုင်များကို  manage လုပ်နိုင်သည့် ဝဘ်အပလီကေးရှင်းတစ်ခုဖြစ်သည်။ ၎င်းသည် ဘဏ်အကောင့်ဖန်တီးခြင်း၊ ငွေလွှဲမှုများကို ခြေရာခံခြင်းနှင့် အကောင့်စီမံခန့်ခွဲမှု၊ ငွေလွှဲမှုစီမံခန့်ခွဲမှုများကို လွယ်ကူစွာလုပ်ဆောင်နိုင်ပါသည်။ ယင်းစနစ်တွင် Next.js ကို frontend အဖြစ်အသုံးပြုပြီး၊ Prisma ကို ORM အဖြစ်အသုံးပြုကာ MySQL ကို database အဖြစ်အသုံးပြုထားပါသည်။',
+                try_link: undefined,
+                source_link: 'https://github.com/mgsainyinyitun/banking-mgmt-system'
+            },
+            {
                 image: bookscribe,
                 title: 'BookScribe',
                 tech: '(Spring Boot, React.js)',
@@ -160,6 +177,14 @@ export const web =
 
     JAPANESE:
         [
+            {
+                image: bankingmgmt,
+                title: 'Banking Management System',
+                tech: '(Next.js, Prisma, MySQL)',
+                description: 'Banking Management Systemは、さまざまな銀行口座、取引、ユーザープロファイルを管理するための包括的なWebアプリケーションです。口座の作成、取引の追跡、お客様の口座管理、お客様の取引管理をシームレスに行うことができます。このシステムは、フロントエンドにNext.jsを使用し、ORMにはPrisma、データベースにはMySQLを使用しています。',
+                try_link: undefined,
+                source_link: 'https://github.com/mgsainyinyitun/banking-mgmt-system'
+            },
             {
                 image: bookscribe,
                 title: 'BookScribe',

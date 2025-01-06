@@ -53,7 +53,7 @@ function ProjectsList(props) {
                                                 extraInfo(project.extra) : null
                                         }
                                         <div className='btn-holder'>
-                                            <a target='_blank' rel='noopener noreferrer' href={project.try_link} className='proj-btn'>TRY NOW</a>
+                                            {project.try_link && <a target='_blank' rel='noopener noreferrer' href={project.try_link} className='proj-btn'>TRY NOW</a>}
                                             <a target='_blank' rel='noopener noreferrer' href={project.source_link} className='proj-btn'>SOURCE CODE</a>
                                         </div>
                                     </div>
